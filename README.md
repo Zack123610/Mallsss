@@ -22,10 +22,14 @@ https://reactnavigation.org/docs/getting-started
 npm install @react-navigation/native
 npx expo install react-native-screens react-native-safe-area-context
 ```
-<br>
 
-### React Navigation Stack
+### React Navigation Stack & Native Stack
 ```
 npm install @react-navigation/stack
 npx expo install react-native-gesture-handler
+npm install @react-navigation/native-stack 
+```
+### React Native Map
+```
+npm install react-native-maps
 ```

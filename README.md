@@ -16,14 +16,16 @@ Zack - CarparkOrMall + Result
 <br>
 https://reactnavigation.org/docs/getting-started
 <br>
+
 ### React Navigation
-'''
+```
 npm install @react-navigation/native
 npx expo install react-native-screens react-native-safe-area-context
-'''
+```
 <br>
+
 ### React Navigation Stack
-'''
+```
 npm install @react-navigation/stack
 npx expo install react-native-gesture-handler
-'''
+```

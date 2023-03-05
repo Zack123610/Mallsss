@@ -1,26 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
-import { useState } from 'react';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+import CarparkOrMallScreen from './screens/CarparkOrMallScreen';
+import Map from './screens/Map';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
-  const [choice, setChoice] = useState('');
-
-  function carparkChoiceHandler() {
-    console.log("Carpark Clicked.");
-  }
-
-  function mallChoiceHandler() {
-    setChoice('Mall');
-    console.log( choice + " Clicked.");
-  }
-
   return (
-    <View style={styles.container}>
-      <View style={styles.carparkOrMallContainer}>
-        <View style={styles.optionContainer}><Button title="Carpark" onPress={carparkChoiceHandler} /></View>
-        <View style={styles.optionContainer}><Button title="Mall" onPress={mallChoiceHandler} /></View>
-      </View>
-    </View>
+    <>
+      <StatusBar style="light" />
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="CarparkOrMallScreen" component={CarparkOrMallScreen} />
+          <Stack.Screen name="Map" component={Map} />
+        </Stack.Navigator>
+      </NavigationContainer>
+
+    </>
   );
 }
 
@@ -30,18 +29,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  carparkOrMallContainer: {
-    flex: 1,
-    flexDirection: 'row',
-    // alignItems: 'center',
-    // justifyContent: 'center',
-  },
-  optionContainer: {
-    margin: 4,
-    padding: 8,
-    borderRadius: 6,
-    backgroundColor: '#5e0acc', //purple
-    color: 'white' //text colour
   },
 });

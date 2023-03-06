@@ -28,8 +28,22 @@ npx expo install react-native-screens react-native-safe-area-context
 npm install @react-navigation/stack
 npx expo install react-native-gesture-handler
 npm install @react-navigation/native-stack 
+------------
+npm install react-navigation
+npm install react-navigation-stack
 ```
 ### React Native Map
 ```
 npx expo install react-native-maps@1.3.2
+```
+### CSS Module Styling
+```
+npm install --save-dev babel-plugin-react-native-classname-to-style
+npm install --save-dev babel-plugin-react-native-platform-specific-extensions
+npm install react-native-css-transformer 
+npm install react-native-paper
+npm install typescript@4.9.4
+npm install --save @types/react
+
+
 ```

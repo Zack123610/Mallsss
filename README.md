@@ -31,5 +31,5 @@ npm install @react-navigation/native-stack
 ```
 ### React Native Map
 ```
-npm install react-native-maps
+npx expo install react-native-maps@1.3.2
 ```

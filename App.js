@@ -5,6 +5,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import CarparkOrMallScreen from './screens/CarparkOrMallScreen';
 import Map from './screens/Map';
+import ResultScreen from './screens/ResultScreen';
+
+// import IconButton from './components/UI/IconButton';
 
 const Stack = createNativeStackNavigator();
 
@@ -15,7 +18,19 @@ export default function App() {
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen name="CarparkOrMallScreen" component={CarparkOrMallScreen} />
+          {/* <Stack.Screen 
+            name="Map" 
+            component={Map} 
+            options={({ navigation }) => ({
+              headerRight: () => (
+                <IconButton icon="done" size={24} color={'black'}
+                  onPress={() => navigation.navigate('ResultScreen')} 
+                />
+              ),
+            })}
+          /> */}
           <Stack.Screen name="Map" component={Map} />
+          <Stack.Screen name="ResultScreen" component={ResultScreen} />
         </Stack.Navigator>
       </NavigationContainer>
 

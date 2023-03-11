@@ -58,6 +58,10 @@ npm install react-navigation-stack
 ```
 npx expo install react-native-maps@1.3.2
 ```
+### Expo Location
+```
+npx expo install expo-location
+```
 ### CSS Module Styling
 ```
 npm install --save-dev babel-plugin-react-native-classname-to-style

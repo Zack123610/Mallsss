@@ -62,6 +62,10 @@ npx expo install react-native-maps@1.3.2
 ```
 npx expo install expo-location
 ```
+### React Native Map Direction
+```
+npm install react-native-maps-directions
+```
 ### CSS Module Styling
 ```
 npm install --save-dev babel-plugin-react-native-classname-to-style

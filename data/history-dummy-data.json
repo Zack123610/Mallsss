@@ -1,0 +1,48 @@
+{
+    "results": [
+    {
+        "2023-01-04 10:34:23": {
+            "Vivo City": {
+                "stores": [
+                    "mcdonalds",
+                    "watsons",
+                    "ntuc_fairprice"
+                ]
+            }
+        }
+    },
+    {
+        "2023-02-04 10:21:15": {
+            "Vivo City": {
+                "stores": [
+                    "mcdonalds",
+                    "watsons",
+                    "ntuc_fairprice"
+                ]
+            }
+        }
+    },
+    {
+        "2023-02-14 09:34:23": {
+            "Vivo City": {
+                "stores": [
+                    "mcdonalds",
+                    "watsons",
+                    "ntuc_fairprice"
+                ]
+            }
+        }
+    },
+    {
+        "2023-03-04 10:34:23": {
+            "Vivo City": {
+                "stores": [
+                    "mcdonalds",
+                    "watsons",
+                    "ntuc_fairprice"
+                ]
+            }
+        }
+    }
+    ]
+}

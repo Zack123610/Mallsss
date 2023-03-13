@@ -45,15 +45,15 @@ import { ThemeProvider } from "styled-components/native";
 import {
   useFonts as useVastShadow,
   VastShadow_400Regular,
-} from "@expo-google-fonts/vastShadow"
+} from "@expo-google-fonts/vast-shadow";
 
 import {
   useFonts as useLeagueSpartan,
   LeagueSpartan_300Light,
-} from "@expo-google-fonts/leagueSpartan"
+} from "@expo-google-fonts/league-spartan";
 
 import { theme } from "./src/infrastructure/theme";
-import { HistoryScreen } from "./src/features/restaurants/screens/restaurants.screen";
+import { HistoryScreen } from "./src/features/history/screens/history.screen";
 
 export default function App() {
   const [vastShadowLoaded] = useVastShadow({
@@ -68,7 +68,7 @@ export default function App() {
   if (!vastShadowLoaded || !leagueSpartanLoaded) {
     return null;
   }
-  
+
   return (
     <>
       <ThemeProvider theme={theme}>

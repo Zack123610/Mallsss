@@ -36,7 +36,7 @@ export const HistoryInfoCard = ({ history = {} }) => {
 
   //Math.floor() to round down if rating is decimal
   //below code will produce an array w number of items as defined in ratings
-  const ratingArray = Array.from(new Array(Math.floor(rating)));
+  //const ratingArray = Array.from(new Array(Math.floor(rating)));
 
   return (
     <HistoryCard elevation={5}>
@@ -46,14 +46,9 @@ export const HistoryInfoCard = ({ history = {} }) => {
         <Section>
           <Stores>{stores}</Stores>
           <SectionEnd>
-            {isClosedTemporarily && (
-              <Text variant="error">CLOSED TEMPORARILY</Text>
-            )}
+            <Text variant="error">CLOSED TEMPORARILY</Text>
             <Spacer position="left" size="large">
-              {isOpenNow && <SvgXml xml={open} width={20} height={20} />}
-            </Spacer>
-            <Spacer position="left" size="large">
-              <Icon source={{ uri: icon }} />
+              <Text variant="error">BUTTON HERE</Text>
             </Spacer>
           </SectionEnd>
         </Section>

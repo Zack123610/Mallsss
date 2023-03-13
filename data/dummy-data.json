@@ -1,56 +1,65 @@
 {
-    "Mcdonalds": {
-      "Vivo City": {
-        "unitNumber": "B1-01A",
-        "operatingHours": "06:00-23:00"
-      },
-      "ION": {
-        "unitNumber": "B1-02A",
-        "operatingHours": "06:00-23:00"
-      },
-      "Jurong Point": {
-        "unitNumber": "B1-03A",
-        "operatingHours": "06:00-23:00"
-      },
-      "Waterway Point": {
-        "unitNumber": "B1-04A",
-        "operatingHours": "06:00-23:00"
-      },
-      "Northpoint": {
-        "unitNumber": "B1-05A",
-        "operatingHours": "06:00-23:00"
-      }
+  "Mcdonalds": {
+    "Vivo City": {
+      "id": 1,
+      "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
+      "storeName": "Mcdonalds",
+      "unitNumber": "B1-01A",
+      "operatingHours": "06:00-23:00"
     },
-    "Watson": {
-      "Vivo City": {
-        "unitNumber": "L1-01A",
-        "operatingHours": "06:00-23:00"
-      },
-      "ION": {
-        "unitNumber": "L1-02A",
-        "operatingHours": "06:00-23:00"
-      },
-      "Northpoint": {
-        "unitNumber": "L1-03A",
-        "operatingHours": "06:00-23:00"
-      }
+    "ION": {
+      "unitNumber": "B1-02A",
+      "operatingHours": "06:00-23:00"
     },
-    "NTUC FairPrice": {
-      "Vivo City": {
-        "unitNumber": "B2-01A",
-        "operatingHours": "06:00-23:00"
-      },
-      "Jurong Point": {
-        "unitNumber": "B2-02A",
-        "operatingHours": "06:00-23:00"
-      },
-      "Waterway Point": {
-        "unitNumber": "B2-02A",
-        "operatingHours": "06:00-23:00"
-      },
-      "Northpoint": {
-        "unitNumber": "B2-02A",
-        "operatingHours": "06:00-23:00"
-      }
+    "Jurong Point": {
+      "unitNumber": "B1-03A",
+      "operatingHours": "06:00-23:00"
+    },
+    "Waterway Point": {
+      "unitNumber": "B1-04A",
+      "operatingHours": "06:00-23:00"
+    },
+    "Northpoint": {
+      "unitNumber": "B1-05A",
+      "operatingHours": "06:00-23:00"
+    }
+  },
+  "Watson": {
+    "Vivo City": {
+      "id": 2,
+      "imageUrl": "https://freepngimg.com/thumb/retail/76800-ibm-beauty-watsons-personal-watson-cosmetics-logo.png",
+      "storeName": "Watson",
+      "unitNumber": "L1-01A",
+      "operatingHours": "06:00-23:00"
+    },
+    "ION": {
+      "unitNumber": "L1-02A",
+      "operatingHours": "06:00-23:00"
+    },
+    "Northpoint": {
+      "unitNumber": "L1-03A",
+      "operatingHours": "06:00-23:00"
+    }
+  },
+  "NTUC FairPrice": {
+    "Vivo City": {
+      "id": 3,
+      "imageUrl": "https://play-lh.googleusercontent.com/T2yB0d7i4sEXdLAJvFzS1kFzJVChIr4yx4dbfXFxZ8L3SvkAO7X9k-SaHKZ6HD6UbrCC=s256-rw",
+      "storeName": "NTUC FairPrice",
+      "unitNumber": "B2-01A",
+      "operatingHours": "06:00-23:00"
+    },
+    "Jurong Point": {
+      "unitNumber": "B2-02A",
+      "operatingHours": "06:00-23:00"
+    },
+    "Waterway Point": {
+      "unitNumber": "B2-02A",
+      "operatingHours": "06:00-23:00"
+    },
+    "Northpoint": {
+      "unitNumber": "B2-02A",
+      "operatingHours": "06:00-23:00"
     }
   }
+}

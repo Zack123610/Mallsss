@@ -1,0 +1,136 @@
+{
+    "Vivo City": {
+        "mallID": 1,
+        "mallDetails": {
+            "location": {
+                "latitude": 1.2648859,
+                "longitude": 103.8221267
+            },
+            "imageMall": "https://www.mapletree.com.sg/~/media/Our%20Portfolio/Singapore/VivoCity/Vivo%20Evening%20Fountain.jpg?h=403",
+            "stores": [{
+                "id": 1,
+                "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
+                "storeName": "Mcdonalds",
+                "unitNumber":  "B1-01A",
+                "operatingHours": "06:00-23:00"
+            }, 
+            {
+                "id": 2,
+                "imageUrl": "https://freepngimg.com/thumb/retail/76800-ibm-beauty-watsons-personal-watson-cosmetics-logo.png",
+                "storeName": "Watson",
+                "unitNumber":  "L1-01A",
+                "operatingHours": "06:00-23:00"
+            },
+            {
+                "id": 3,
+                "imageUrl":"https://play-lh.googleusercontent.com/T2yB0d7i4sEXdLAJvFzS1kFzJVChIr4yx4dbfXFxZ8L3SvkAO7X9k-SaHKZ6HD6UbrCC=s256-rw",
+                "storeName": "NTUC FairPrice",
+                "unitNumber":  "B2-01A",
+                "operatingHours": "06:00-23:00"
+            }]
+        }
+    },
+    "ION": {
+        "mallID": 2,
+        "mallDetails": {
+            "location": {
+                "latitude": 1.3039288,
+                "longitude": 103.8319492
+            },
+            "imageMall": "https://www.capitaland.com/content/dam/capitaland-media-library/integrateddevelopment-urbandevelopment/Singapore/Singapore/ION%20Orchard/ION-Orchard-Interior-2-Apr-2019.jpg.transform/cap-midres/image.jpg",
+            "stores": [{
+                "id": 1,
+                "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
+                "storeName": "Mcdonalds",
+                "unitNumber":  "B1-01A",
+                "operatingHours": "06:00-23:00"
+            }]
+        }
+    },
+    "Jurong Point": {
+        "mallID": 3,
+        "mallDetails": {
+            "location": {
+                "latitude": 1.3397443,
+                "longitude": 103.7067297
+            },
+            "imageMall": "https://mcmscd.mercatus.com.sg/en/-/media/B7B70A74F58E4514854D1600E12F5346.ashx?rev=190a4e5076d14400a0bf72772e5e1ca8&w=768&h=432",
+            "stores": [{
+                "id": 1,
+                "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
+                "storeName": "Mcdonalds",
+                "unitNumber":  "B1-01A",
+                "operatingHours": "06:00-23:00"
+            }, 
+            {
+                "id": 2,
+                "imageUrl": "https://freepngimg.com/thumb/retail/76800-ibm-beauty-watsons-personal-watson-cosmetics-logo.png",
+                "storeName": "Watson",
+                "unitNumber":  "L1-01A",
+                "operatingHours": "06:00-23:00"
+            },
+            {
+                "id": 3,
+                "imageUrl":"https://play-lh.googleusercontent.com/T2yB0d7i4sEXdLAJvFzS1kFzJVChIr4yx4dbfXFxZ8L3SvkAO7X9k-SaHKZ6HD6UbrCC=s256-rw",
+                "storeName": "NTUC FairPrice",
+                "unitNumber":  "B2-01A",
+                "operatingHours": "06:00-23:00"
+            }]
+        }
+    },
+    "Waterway Point": {
+        "mallID": 4,
+        "mallDetails": {
+            "location": {
+                "latitude": 1.4064412,
+                "longitude": 103.9020846
+            },
+            "imageMall": "https://media.propertysupermart.com/media/20190114143107/Waterway-Point-Entrance-1024x683.jpg",
+            "stores": [{
+                "id": 1,
+                "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
+                "storeName": "Mcdonalds",
+                "unitNumber":  "B1-01A",
+                "operatingHours": "06:00-23:00"
+            }, 
+            {
+                "id": 2,
+                "imageUrl": "https://freepngimg.com/thumb/retail/76800-ibm-beauty-watsons-personal-watson-cosmetics-logo.png",
+                "storeName": "Watson",
+                "unitNumber":  "L1-01A",
+                "operatingHours": "06:00-23:00"
+            }]
+        }
+    },
+    "Northpoint City": {
+        "mallID": 5,
+        "mallDetails": {
+            "location": {
+                "latitude": 1.4293478,
+                "longitude": 103.8358671
+            },
+            "imageMall": "https://www.vector-foiltec.com/wp-content/uploads/2021/07/NorthpointCity_00067_copyright-Frasers-Property-Singapore-scaled.jpg",
+            "stores": [{
+                "id": 1,
+                "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
+                "storeName": "Mcdonalds",
+                "unitNumber":  "B1-01A",
+                "operatingHours": "06:00-23:00"
+            }, 
+            {
+                "id": 2,
+                "imageUrl": "https://freepngimg.com/thumb/retail/76800-ibm-beauty-watsons-personal-watson-cosmetics-logo.png",
+                "storeName": "Watson",
+                "unitNumber":  "L1-01A",
+                "operatingHours": "06:00-23:00"
+            },
+            {
+                "id": 3,
+                "imageUrl":"https://play-lh.googleusercontent.com/T2yB0d7i4sEXdLAJvFzS1kFzJVChIr4yx4dbfXFxZ8L3SvkAO7X9k-SaHKZ6HD6UbrCC=s256-rw",
+                "storeName": "NTUC FairPrice",
+                "unitNumber":  "B2-01A",
+                "operatingHours": "06:00-23:00"
+            }]
+        }
+    }
+}

@@ -10,7 +10,7 @@
             "stores": [{
                 "id": 1,
                 "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
-                "storeName": "Mcdonalds",
+                "storeName": "McDonalds",
                 "unitNumber":  "B1-01A",
                 "operatingHours": "06:00-23:00"
             }, 
@@ -41,7 +41,7 @@
             "stores": [{
                 "id": 1,
                 "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
-                "storeName": "Mcdonalds",
+                "storeName": "McDonalds",
                 "unitNumber":  "B1-01A",
                 "operatingHours": "06:00-23:00"
             }]
@@ -58,7 +58,7 @@
             "stores": [{
                 "id": 1,
                 "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
-                "storeName": "Mcdonalds",
+                "storeName": "McDonalds",
                 "unitNumber":  "B1-01A",
                 "operatingHours": "06:00-23:00"
             }, 
@@ -89,7 +89,7 @@
             "stores": [{
                 "id": 1,
                 "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
-                "storeName": "Mcdonalds",
+                "storeName": "McDonalds",
                 "unitNumber":  "B1-01A",
                 "operatingHours": "06:00-23:00"
             }, 
@@ -113,7 +113,7 @@
             "stores": [{
                 "id": 1,
                 "imageUrl": "https://cdn.iconscout.com/icon/free/png-256/mcdonalds-3384870-2822951.png",
-                "storeName": "Mcdonalds",
+                "storeName": "McDonalds",
                 "unitNumber":  "B1-01A",
                 "operatingHours": "06:00-23:00"
             }, 

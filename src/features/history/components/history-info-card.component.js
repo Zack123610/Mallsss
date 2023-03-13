@@ -31,7 +31,7 @@ export const HistoryInfoCard = ({ history = {} }) => {
     photos = [
       "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
     ],
-    stores = [],
+    stores = ["Store A", "Store B", "Store C"],
   } = history;
 
   //Math.floor() to round down if rating is decimal
@@ -39,16 +39,12 @@ export const HistoryInfoCard = ({ history = {} }) => {
   const ratingArray = Array.from(new Array(Math.floor(rating)));
 
   return (
-    <RestaurantCard elevation={5}>
-      <RestaurantCardCover key={name} source={{ uri: photos[0] }} />
+    <HistoryCard elevation={5}>
+      <HistoryCardCover key={mall} source={{ uri: photos[0] }} />
       <Info>
-        <Text variant="label">{name}</Text>
+        <Text variant="label">{mall}</Text>
         <Section>
-          <Rating>
-            {ratingArray.map(() => (
-              <SvgXml xml={star} width={20} height={20} />
-            ))}
-          </Rating>
+          <Stores>{stores}</Stores>
           <SectionEnd>
             {isClosedTemporarily && (
               <Text variant="error">CLOSED TEMPORARILY</Text>
@@ -61,8 +57,7 @@ export const HistoryInfoCard = ({ history = {} }) => {
             </Spacer>
           </SectionEnd>
         </Section>
-        <Address>{address}</Address>
       </Info>
-    </RestaurantCard>
+    </HistoryCard>
   );
 };

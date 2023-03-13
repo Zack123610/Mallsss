@@ -6,11 +6,11 @@ export const Icon = styled.Image`
   height: 15px;
 `;
 
-export const RestaurantCard = styled(Card)`
+export const HistoryCard = styled(Card)`
   background-color: ${(props) => props.theme.colors.bg.primary};
 `;
 
-export const RestaurantCardCover = styled(Card.Cover)`
+export const HistoryCardCover = styled(Card.Cover)`
   padding: ${(props) => props.theme.space[3]};
   background-color: ${(props) => props.theme.colors.bg.primary};
 `;
@@ -28,6 +28,11 @@ export const Rating = styled.View`
   flex-direction: row;
   padding-top: ${(props) => props.theme.space[2]};
   padding-bottom: ${(props) => props.theme.space[2]};
+`;
+
+export const Stores = styled.Text`
+  font-family: ${(props) => props.theme.fonts.body};
+  font-size: ${(props) => props.theme.fontSizes.caption};
 `;
 
 export const Section = styled.View`

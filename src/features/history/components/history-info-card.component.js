@@ -4,18 +4,16 @@ import { SvgXml } from "react-native-svg";
 import { Spacer } from "../../../components/spacer/spacer.component";
 //now import text from src and not from "react-native"
 import { Text } from "../../../components/typography/text.component";
-import star from "../../../../assets/star";
-import open from "../../../../assets/open";
+// import star from "../../../../assets/star";
+// import open from "../../../../assets/open";
 
 import {
-  RestaurantCard,
-  RestaurantCardCover,
+  HistoryCard,
+  HistoryCardCover,
+  Stores,
   Info,
   Section,
   SectionEnd,
-  Rating,
-  Icon,
-  Address,
 } from "./history-info-card.styles";
 
 //inside small curly braces is what restaurant info

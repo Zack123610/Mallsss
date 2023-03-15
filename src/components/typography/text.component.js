@@ -26,6 +26,11 @@ const caption = (theme) => `
     font-weight: ${theme.fontWeights.bold};
 `;
 
+const subcaption = (theme) => `
+    font-size: ${theme.fontSizes.subcaption};
+    font-weight: ${theme.fontWeights.bold};
+`;
+
 const label = (theme) => `
     font-family: ${theme.fonts.heading};
     font-size: ${theme.fontSizes.body};
@@ -37,6 +42,7 @@ const variants = {
   body,
   label,
   caption,
+  subcaption,
   error,
   hint,
 };

@@ -44,7 +44,7 @@ export const HistoryInfoCard = ({ history = {} }) => {
     <HistoryCard elevation={5}>
       <HistoryCardCover key={mall} source={{ uri: photos[0] }} />
       <Info>
-        <Text variant="caption" style={{ marginBottom: 5}}> {date} </Text>
+        <Text variant="subcaption" style={{ marginBottom: 5}}> {date} </Text>
         <Text variant="label" >{mall}</Text>
         <Section>
           <Spacer>

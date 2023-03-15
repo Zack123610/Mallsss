@@ -7,12 +7,12 @@ export const Icon = styled.Image`
 `;
 
 export const HistoryCard = styled(Card)`
-  background-color: ${(props) => props.theme.colors.bg.primary};
+  background-color: ${(props) => props.theme.colors.ui.tertiary};
 `;
 
 export const HistoryCardCover = styled(Card.Cover)`
   padding: ${(props) => props.theme.space[3]};
-  background-color: ${(props) => props.theme.colors.bg.primary};
+  background-color: ${(props) => props.theme.colors.ui.tertiary};
 `;
 
 export const Address = styled.Text`
@@ -33,6 +33,8 @@ export const Rating = styled.View`
 export const Stores = styled.Text`
   font-family: ${(props) => props.theme.fonts.body};
   font-size: ${(props) => props.theme.fontSizes.caption};
+  color: ${(props) => props.theme.colors.ui.secondary};
+  padding-top: ${(props) => props.theme.space[1]};
 `;
 
 export const Section = styled.View`
@@ -41,6 +43,7 @@ export const Section = styled.View`
 `;
 
 export const SectionEnd = styled.View`
+  padding-top: ${(props) => props.theme.space[4]};
   flex: 1;
   flex-direction: row;
   justify-content: flex-end;

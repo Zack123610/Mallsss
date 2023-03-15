@@ -1,11 +1,19 @@
 import React from "react";
 import { SvgXml } from "react-native-svg";
 
+import { TouchableOpacity, StyleSheet, View } from 'react-native';
 import { Spacer } from "../../../components/spacer/spacer.component";
 //now import text from src and not from "react-native"
 import { Text } from "../../../components/typography/text.component";
 // import star from "../../../../assets/star";
 // import open from "../../../../assets/open";
+import { FlatList } from "react-native";
+
+const styles = StyleSheet.create({
+  bold: {fontWeight: 'bold'},
+  italic: {fontStyle: 'italic'},
+  underline: {textDecorationLine: 'underline'}
+})
 
 import {
   HistoryCard,
@@ -29,24 +37,29 @@ export const HistoryInfoCard = ({ history = {} }) => {
     photos = [
       "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
     ],
-    stores = ["Store A", "Store B", "Store C"],
+    stores = ["Store A", "Store B","Store C"],
   } = history;
-
-  //Math.floor() to round down if rating is decimal
-  //below code will produce an array w number of items as defined in ratings
-  //const ratingArray = Array.from(new Array(Math.floor(rating)));
 
   return (
     <HistoryCard elevation={5}>
       <HistoryCardCover key={mall} source={{ uri: photos[0] }} />
       <Info>
-        <Text variant="label">{mall}</Text>
+        <Text variant="caption" style={{ marginBottom: 5}}> {date} </Text>
+        <Text variant="label" >{mall}</Text>
         <Section>
-          <Stores>{stores}</Stores>
+          <Spacer>
+            {stores.map((store) => {
+              return (
+                  <Stores>{store}</Stores>
+              );
+            })}
+          </Spacer>
           <SectionEnd>
-            <Text variant="error">CLOSED TEMPORARILY</Text>
-            <Spacer position="left" size="large">
-              <Text variant="error">BUTTON HERE</Text>
+            <Spacer>
+            <TouchableOpacity
+            onPress={() => {}} >
+              <Text variant="caption" style={styles.underline}>Go Again</Text>
+            </TouchableOpacity>
             </Spacer>
           </SectionEnd>
         </Section>

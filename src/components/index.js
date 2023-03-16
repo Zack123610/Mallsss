@@ -1,11 +1,11 @@
-import { TextInput } from './TextInput';
-import { View } from './View';
-import { Logo } from './Logo';
-import { Icon } from './Icon';
-import { Button } from './Button';
-import { FormErrorMessage } from './FormErrorMessage';
-import { LoadingIndicator } from './LoadingIndicator';
-
+import { TextInput } from "./TextInput";
+import { View } from "./View";
+import { Logo } from "./Logo";
+import { Icon } from "./Icon";
+import { Button } from "./Button";
+import { FormErrorMessage } from "./FormErrorMessage";
+import { LoadingIndicator } from "./LoadingIndicator";
+import { ExpandableComponent } from "./ExpandableComponent";
 export {
   View,
   TextInput,
@@ -13,5 +13,6 @@ export {
   Icon,
   Button,
   FormErrorMessage,
-  LoadingIndicator
+  LoadingIndicator,
+  ExpandableComponent,
 };

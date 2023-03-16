@@ -1,0 +1,114 @@
+[
+  {
+    "isExpanded": false,
+    "category_name": "Jurong Point",
+    "subcategory": [
+      {
+        "id": 1,
+        "val": "Best Denki"
+      },
+      {
+        "id": 2,
+        "val": "Kinokuniya"
+      },
+      {
+        "id": 3,
+        "val": "Popeyes"
+      },
+      {
+        "id": 4,
+        "val": "Uniqlo"
+      },
+      {
+        "id": 5,
+        "val": "H&M"
+      }
+    ],
+    "distance": 3.6,
+    "carparkAvailability": "80%"
+  },
+  {
+    "isExpanded": false,
+    "category_name": "JEM",
+    "subcategory": [
+      {
+        "id": 1,
+        "val": "Best Denki"
+      },
+      {
+        "id": 2,
+        "val": "Kinokuniya"
+      },
+      {
+        "id": 3,
+        "val": "Popeyes"
+      },
+      {
+        "id": 4,
+        "val": "Uniqlo"
+      },
+      {
+        "id": 5,
+        "val": "H&M"
+      }
+    ],
+    "distance": 4.6,
+    "carparkAvailability": "30%"
+  },
+  {
+    "isExpanded": false,
+    "category_name": "IMM",
+    "subcategory": [
+      {
+        "id": 1,
+        "val": "Best Denki"
+      },
+      {
+        "id": 2,
+        "val": "Kinokuniya"
+      },
+      {
+        "id": 3,
+        "val": "Popeyes"
+      }
+    ],
+    "distance": 2.6,
+    "carparkAvailability": "60%"
+  },
+  {
+    "isExpanded": false,
+    "category_name": "JCube",
+    "subcategory": [
+      {
+        "id": 1,
+        "val": "Best Denki"
+      },
+      {
+        "id": 2,
+        "val": "Kinokuniya"
+      },
+      {
+        "id": 3,
+        "val": "Popeyes"
+      }
+    ],
+    "distance": 1.6,
+    "carparkAvailability": "40%"
+  },
+  {
+    "isExpanded": false,
+    "category_name": "Westgate",
+    "subcategory": [
+      {
+        "id": 1,
+        "val": "Best Denki"
+      },
+      {
+        "id": 2,
+        "val": "Kinokuniya"
+      }
+    ],
+    "distance": 5.6,
+    "carparkAvailability": "90%"
+  }
+]

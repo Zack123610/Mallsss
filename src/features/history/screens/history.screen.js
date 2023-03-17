@@ -7,6 +7,8 @@ import { HistoryInfoCard } from "../components/history-info-card.component";
 import { Spacer } from "../../../components/spacer/spacer.component";
 import { SafeArea } from "../../../components/utility/safe-area.component";
 
+import history from ""
+
 const SearchContainer = styled.View`
   padding: ${(props) => props.theme.space[3]};
 `;

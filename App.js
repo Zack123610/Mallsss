@@ -37,6 +37,7 @@
 // //     justifyContent: 'center',
 // //   },
 // // });
+import history from "./src/services/history/mock/history-dummy-data.json";
 
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import React from "react";

@@ -14,20 +14,21 @@ import HomePage from "./src/screens/HomePage";
 //   );
 // }
 
-const navigator = createStackNavigator(
-  {
-    Home: HomePage,
-    Update: UpdatePassword
-  },
-  {
-    initialRouteName: "Home", //which component to show first
-    defaultNavigationOptions: {
-      title: "App",
-    },
-  }
-);
+import React from "react";
 
-export default createAppContainer(navigator);
+import { NavigationContainer } from "@react-navigation/native";
+import AppNavigator from "./src/navigation/AppNavigator";
+
+export default function App(){
+  return (
+    <NavigationContainer>
+      <AppNavigator/>
+    </NavigationContainer>
+  )
+}
+
+
+// export default createAppContainer(navigator);
 
 // const styles = StyleSheet.create({
 //   container: {

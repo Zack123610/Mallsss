@@ -1,0 +1,56 @@
+{
+    "Mcdonalds": {
+      "Vivo City": {
+        "unitNumber": "B1-01A",
+        "operatingHours": "06:00-23:00"
+      },
+      "ION": {
+        "unitNumber": "B1-02A",
+        "operatingHours": "06:00-23:00"
+      },
+      "Jurong Point": {
+        "unitNumber": "B1-03A",
+        "operatingHours": "06:00-23:00"
+      },
+      "Waterway Point": {
+        "unitNumber": "B1-04A",
+        "operatingHours": "06:00-23:00"
+      },
+      "Northpoint": {
+        "unitNumber": "B1-05A",
+        "operatingHours": "06:00-23:00"
+      }
+    },
+    "Watson": {
+      "Vivo City": {
+        "unitNumber": "L1-01A",
+        "operatingHours": "06:00-23:00"
+      },
+      "ION": {
+        "unitNumber": "L1-02A",
+        "operatingHours": "06:00-23:00"
+      },
+      "Northpoint": {
+        "unitNumber": "L1-03A",
+        "operatingHours": "06:00-23:00"
+      }
+    },
+    "NTUC FairPrice": {
+      "Vivo City": {
+        "unitNumber": "B2-01A",
+        "operatingHours": "06:00-23:00"
+      },
+      "Jurong Point": {
+        "unitNumber": "B2-02A",
+        "operatingHours": "06:00-23:00"
+      },
+      "Waterway Point": {
+        "unitNumber": "B2-02A",
+        "operatingHours": "06:00-23:00"
+      },
+      "Northpoint": {
+        "unitNumber": "B2-02A",
+        "operatingHours": "06:00-23:00"
+      }
+    }
+  }

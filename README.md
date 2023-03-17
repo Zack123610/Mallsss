@@ -1,5 +1,27 @@
 # Mallsss
+## Git instructions (Using cmd):
+### Create own branch:
+  1. git clone <git repo link>
+  2. npm install & install dependencies
+  3. git checkout -b <new_branch_name>
 
+### To commit to own branch:
+  1. git add .
+  2. git commit -m "Type_any_message_here"
+  3. git push -u origin <own_branch_name>
+  - use git status whenever to check
+
+### To commit to main:
+  1. Commit to own branch first
+  2. git checkout main
+  3. git pull
+  4. git merge <own_branch_name>
+      - resolve any merge conflicts
+  5. git push origin main
+
+<hr>
+
+  
 Can try to code under the src folder. Create a sub-branch and code it in sub-branch first.
 
 Priscilla - UserAuthentication + MallRecommendation
@@ -35,6 +57,14 @@ npm install react-navigation-stack
 ### React Native Map
 ```
 npx expo install react-native-maps@1.3.2
+```
+### Expo Location
+```
+npx expo install expo-location
+```
+### React Native Map Direction
+```
+npm install react-native-maps-directions
 ```
 ### CSS Module Styling
 ```

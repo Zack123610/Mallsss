@@ -74,8 +74,8 @@ npm install react-native-css-transformer
 npm install react-native-paper
 npm install typescript@4.9.4
 npm install --save @types/react
-
-### theme
+```
+### Toggle Theme
 ```
 npm install --save react-native-event-listeners
 ```

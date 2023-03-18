@@ -75,5 +75,13 @@ npm install react-native-paper
 npm install typescript@4.9.4
 npm install --save @types/react
 
+### theme
+```
+npm install --save react-native-event-listeners
+```
+
+### Other Components
+```
+npm install react-native-toggle-input
 
 ```

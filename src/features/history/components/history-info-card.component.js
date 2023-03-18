@@ -8,6 +8,7 @@ import { Text } from "../../../components/typography/text.component";
 // import star from "../../../../assets/star";
 // import open from "../../../../assets/open";
 import { FlatList } from "react-native";
+import historyDummyData from "../../../services/history/mock/historyDummyData.json"
 
 const styles = StyleSheet.create({
   bold: {fontWeight: 'bold'},
@@ -34,15 +35,13 @@ export const HistoryInfoCard = ({ history = {} }) => {
   const {
     date = "2023-02-04 10:21:15",
     mall = "Some Mall",
-    photos = [
-      "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
-    ],
+    photo = "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
     stores = ["Store A", "Store B","Store C"],
   } = history;
 
   return (
     <HistoryCard elevation={5}>
-      <HistoryCardCover key={mall} source={{ uri: photos[0] }} />
+      <HistoryCardCover key={mall} source={{ uri: photo }} />
       <Info>
         <Text variant="subcaption" style={{ marginBottom: 5}}> {date} </Text>
         <Text variant="label" >{mall}</Text>

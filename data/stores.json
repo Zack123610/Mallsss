@@ -8,12 +8,11 @@
     }
   },
   {
-    "storeName": "7-Eleven",
+    "storeName": "7 Eleven",
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
-        { "id": 2, "mallName": "Changi City Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "Waterway Point" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/3921217-11.jpg",
       "category": ["Services"]
@@ -94,7 +93,7 @@
         { "id": 3, "mallName": "Eastpoint Mall" },
         { "id": 4, "mallName": "Hougang Mall" },
         { "id": 5, "mallName": "Waterway Point" },
-        { "id": 6, "mallName": "Waterway Point" }
+        { "id": 6, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/392Bata%20logo%20380x275.jpg",
       "category": ["Leather Goods, Bags & Shoes"]
@@ -119,7 +118,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/769bee-cheng-hiang.jpg",
       "category": ["Food & Restaurants"]
@@ -131,7 +130,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/606bengawan-solo.jpg",
       "category": ["Food & Restaurants"]
@@ -153,7 +152,7 @@
         { "id": 2, "mallName": "Changi City Point" },
         { "id": 3, "mallName": "Eastpoint Mall" },
         { "id": 4, "mallName": "Waterway Point" },
-        { "id": 5, "mallName": "Waterway Point" }
+        { "id": 5, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/474805Boost%20Juice%20380x275.png",
       "category": ["Food & Restaurants"]
@@ -212,7 +211,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/965Chateraise.JPG",
       "category": ["Food & Restaurants"]
@@ -242,7 +241,7 @@
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Hougang Mall" },
         { "id": 4, "mallName": "Waterway Point" },
-        { "id": 5, "mallName": "Waterway Point" }
+        { "id": 5, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/143720Crave%20nasi%20lemak.jpg",
       "category": ["Food & Restaurants"]
@@ -286,7 +285,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/92Dorra%20Slimming.jpg",
       "category": ["Hair & Beauty"]
@@ -323,7 +322,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/479eu-yan-sang%20380.jpg",
       "category": ["Pharmacy & Healthcare"]
@@ -368,7 +367,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/Tiong%20Bahru%20Plaza_Four%20Leaves_Logo.jpg",
       "category": ["Food & Restaurants"]
@@ -396,7 +395,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/727Fun%20Toast%20logo.jpg",
       "category": ["Food & Restaurants"]
@@ -421,7 +420,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Changi City Point" },
         { "id": 3, "mallName": "Hougang Mall" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/361335Giordano-New.jpg",
       "category": ["Fashion Wear & Accessories"]
@@ -444,7 +443,7 @@
         { "id": 3, "mallName": "Hougang Mall" },
         { "id": 4, "mallName": "The Centrepoint" },
         { "id": 5, "mallName": "Waterway Point" },
-        { "id": 6, "mallName": "Waterway Point" }
+        { "id": 6, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/771454guardian380.jpg",
       "category": ["Pharmacy & Healthcare"]
@@ -496,7 +495,7 @@
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Hougang Mall" },
         { "id": 4, "mallName": "Waterway Point" },
-        { "id": 5, "mallName": "Waterway Point" }
+        { "id": 5, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/264japan-home.jpg",
       "category": [
@@ -536,7 +535,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Hougang Mall" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/89780KFC%20logo%20(resized).jpg",
       "category": ["Food & Restaurants"]
@@ -556,7 +555,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Waterway Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/891143kiddy-palace.jpg",
       "category": ["Toys & Collectibles", "Children's Wear, Toys & Maternity"]
@@ -576,7 +575,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/Tiong%20Bahru%20Plaza_Koi_Logo.jpg",
       "category": ["Food & Restaurants"]
@@ -618,7 +617,7 @@
         { "id": 3, "mallName": "Hougang Mall" },
         { "id": 4, "mallName": "The Centrepoint" },
         { "id": 5, "mallName": "Waterway Point" },
-        { "id": 6, "mallName": "Waterway Point" }
+        { "id": 6, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/174LAC%20logo%20380%20x%20H275px.jpg",
       "category": ["Pharmacy & Healthcare"]
@@ -673,7 +672,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/53154makisan.png",
       "category": ["Food & Restaurants"]
@@ -696,7 +695,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/784macdonalds.jpg",
       "category": ["Food & Restaurants"]
@@ -720,7 +719,7 @@
         { "id": 4, "mallName": "Hougang Mall" },
         { "id": 5, "mallName": "The Centrepoint" },
         { "id": 6, "mallName": "Waterway Point" },
-        { "id": 7, "mallName": "Waterway Point" }
+        { "id": 7, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/935Mos%20burger%20logo%20380x275.jpg",
       "category": ["Food & Restaurants"]
@@ -735,7 +734,7 @@
         { "id": 3, "mallName": "Eastpoint Mall" },
         { "id": 4, "mallName": "Hougang Mall" },
         { "id": 5, "mallName": "Waterway Point" },
-        { "id": 6, "mallName": "Waterway Point" }
+        { "id": 6, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/177696Mr%20Bean%20revised.jpg",
       "category": ["Food & Restaurants"]
@@ -749,7 +748,7 @@
         { "id": 2, "mallName": "Changi City Point" },
         { "id": 3, "mallName": "Hougang Mall" },
         { "id": 4, "mallName": "Waterway Point" },
-        { "id": 5, "mallName": "Waterway Point" }
+        { "id": 5, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/959767176240Mr%20Coconut%20(WWP)%20380.png",
       "category": ["Food & Restaurants"]
@@ -762,7 +761,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/52My%20Digital%20Lock_logo.jpg",
       "category": [
@@ -779,7 +778,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Hougang Mall" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/324Nail%20Palace%20Logo_380x275.jpg",
       "category": ["Hair & Beauty"]
@@ -791,7 +790,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Eastpoint Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/292970nailz.png",
       "category": ["Hair & Beauty"]
@@ -804,7 +803,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/364Nam%20Kee%20Pau_logo.jpg",
       "category": ["Food & Restaurants"]
@@ -839,7 +838,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/Tiong%20Bahru%20Plaza_New%20York%20Skin_Logo.jpg",
       "category": ["Hair & Beauty"]
@@ -852,7 +851,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/533Nine%20Fresh%20Logo%20380x275.jpg",
       "category": ["Food & Restaurants"]
@@ -865,7 +864,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/919OCBC.jpg",
       "category": ["Bank & Money Changer"]
@@ -879,7 +878,7 @@
         { "id": 2, "mallName": "Changi City Point" },
         { "id": 3, "mallName": "Hougang Mall" },
         { "id": 4, "mallName": "Waterway Point" },
-        { "id": 5, "mallName": "Waterway Point" }
+        { "id": 5, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/420old-chang-kee.jpg",
       "category": ["Food & Restaurants"]
@@ -902,7 +901,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Waterway Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/433702Owndays380x275.png",
       "category": ["Optical"]
@@ -931,7 +930,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/391PezzoLogo.jpg",
       "category": ["Food & Restaurants"]
@@ -997,7 +996,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/255402Thumbnail%20Web%20Banner%20(Polar).jpg",
       "category": ["Food & Restaurants"]
@@ -1009,7 +1008,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/80popular.jpg",
       "category": ["Books & Stationery"]
@@ -1022,7 +1021,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/Tiong%20Bahru%20Plaza_POSB_Logo.jpg",
       "category": ["Bank & Money Changer"]
@@ -1125,7 +1124,7 @@
         { "id": 2, "mallName": "Changi City Point" },
         { "id": 3, "mallName": "Hougang Mall" },
         { "id": 4, "mallName": "Waterway Point" },
-        { "id": 5, "mallName": "Waterway Point" }
+        { "id": 5, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/418Singtel%20Exclusive%20Retailer.jpg",
       "category": ["Electrical, Electronic, Camera & Telecommunication"]
@@ -1160,7 +1159,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/SKP_logo.jpg",
       "category": [
@@ -1193,7 +1192,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Changi City Point" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/869spectacle%20hut_use%20this.jpg",
       "category": ["Optical"]
@@ -1206,7 +1205,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Hougang Mall" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/908stalford-learning-centre.jpg",
       "category": ["Schools & Offices"]
@@ -1217,7 +1216,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/Standard%20Photo.jpg",
       "category": ["Services"]
@@ -1242,7 +1241,7 @@
         { "id": 5, "mallName": "Hougang Mall" },
         { "id": 6, "mallName": "The Centrepoint" },
         { "id": 7, "mallName": "Waterway Point" },
-        { "id": 8, "mallName": "Waterway Point" }
+        { "id": 8, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/344Starbucks%20380.png",
       "category": ["Food & Restaurants"]
@@ -1253,7 +1252,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/Tiong%20Bahru%20Plaza_Stuff_d_Logo.jpg",
       "category": ["Food & Restaurants"]
@@ -1267,7 +1266,7 @@
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Hougang Mall" },
         { "id": 4, "mallName": "Waterway Point" },
-        { "id": 5, "mallName": "Waterway Point" }
+        { "id": 5, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/16463subway%20380x275.jpg",
       "category": ["Food & Restaurants"]
@@ -1383,7 +1382,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/844Time%20Studio%20logo%20380x275.jpg",
       "category": ["Jewellery & Watches"]
@@ -1469,7 +1468,7 @@
         { "id": 3, "mallName": "Changi City Point" },
         { "id": 4, "mallName": "Hougang Mall" },
         { "id": 5, "mallName": "Waterway Point" },
-        { "id": 6, "mallName": "Waterway Point" }
+        { "id": 6, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/VELU%20LOGO%20380X275.jpg",
       "category": [
@@ -1486,7 +1485,7 @@
         { "id": 2, "mallName": "Changi City Point" },
         { "id": 3, "mallName": "Changi City Point" },
         { "id": 4, "mallName": "Waterway Point" },
-        { "id": 5, "mallName": "Waterway Point" }
+        { "id": 5, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/395Venus%20Beauty%20Logo_380x275.png",
       "category": ["Hair & Beauty"]
@@ -1498,7 +1497,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Waterway Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/702victoria-facelift.jpg",
       "category": ["Hair & Beauty"]
@@ -1524,7 +1523,7 @@
         { "id": 3, "mallName": "Hougang Mall" },
         { "id": 4, "mallName": "The Centrepoint" },
         { "id": 5, "mallName": "Waterway Point" },
-        { "id": 6, "mallName": "Waterway Point" }
+        { "id": 6, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/622watsons.jpg",
       "category": ["Pharmacy & Healthcare"]
@@ -1536,7 +1535,7 @@
       "location": [
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/Tiong%20Bahru%20Plaza_Welcia_Logo.jpg",
       "category": ["Pharmacy & Healthcare"]
@@ -1549,7 +1548,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/577WOK%20HEY.jpg",
       "category": ["Food & Restaurants"]
@@ -1578,7 +1577,7 @@
         { "id": 1, "mallName": "Tiong Bahru" },
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.tiongbahruplaza.com.sg/images/441Ya%20Kun%20Kaya%20Toast.png",
       "category": ["Food & Restaurants"]
@@ -1617,6 +1616,14 @@
       "location": [{ "id": 1, "mallName": "Tiong Bahru" }],
       "image": "https://www.tiongbahruplaza.com.sg/images/370%20x%20275%20Logo%20copy%20(002).png",
       "category": ["Food & Restaurants"]
+    }
+  },
+  {
+    "storeName": "7-Eleven",
+    "storeDetails": {
+      "location": [{ "id": 1, "mallName": "Changi City Point" }],
+      "image": "https://www.changicitypoint.com.sg/images/1217-11.jpg",
+      "category": ["Services"]
     }
   },
   {
@@ -1737,7 +1744,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Changi City Point" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.changicitypoint.com.sg/images/222capitol.png",
       "category": ["Optical"]
@@ -1780,7 +1787,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Changi City Point" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.changicitypoint.com.sg/images/13380x275%20Cotton%20On.png",
       "category": ["Fashion Wear & Accessories"]
@@ -1835,7 +1842,7 @@
       "location": [
         { "id": 1, "mallName": "Changi City Point" },
         { "id": 2, "mallName": "Waterway Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.changicitypoint.com.sg/images/385Dough%20culture.jpg",
       "category": ["Food & Restaurants"]
@@ -2007,7 +2014,7 @@
         { "id": 1, "mallName": "Changi City Point" },
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Hougang Mall" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.changicitypoint.com.sg/images/kcuts%20NEW.jpg",
       "category": ["Hair & Beauty"]
@@ -2070,7 +2077,7 @@
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Hougang Mall" },
         { "id": 4, "mallName": "Waterway Point" },
-        { "id": 5, "mallName": "Waterway Point" }
+        { "id": 5, "mallName": "White Sands" }
       ],
       "image": "https://www.changicitypoint.com.sg/images/299liHO%20New%20380.png",
       "category": ["Food & Restaurants"]
@@ -2263,7 +2270,7 @@
         { "id": 1, "mallName": "Changi City Point" },
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.changicitypoint.com.sg/images/998381380x275.png",
       "category": ["Food & Restaurants"]
@@ -2291,7 +2298,7 @@
       "location": [
         { "id": 1, "mallName": "Changi City Point" },
         { "id": 2, "mallName": "Eastpoint Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.changicitypoint.com.sg/images/raffles-logo.jpg",
       "category": ["Pharmacy & Healthcare"]
@@ -2320,7 +2327,7 @@
         { "id": 1, "mallName": "Changi City Point" },
         { "id": 2, "mallName": "Eastpoint Mall" },
         { "id": 3, "mallName": "Hougang Mall" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.changicitypoint.com.sg/images/818Saizeriya%20Logo%20380x275.jpg",
       "category": ["Food & Restaurants"]
@@ -2356,7 +2363,7 @@
       "location": [
         { "id": 1, "mallName": "Changi City Point" },
         { "id": 2, "mallName": "Waterway Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.changicitypoint.com.sg/images/849sf-food.jpg",
       "category": ["Food & Restaurants"]
@@ -2473,7 +2480,7 @@
       "location": [
         { "id": 1, "mallName": "Changi City Point" },
         { "id": 2, "mallName": "Changi City Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.changicitypoint.com.sg/images/The%20Soup%20Spoon%20New%20Concept.jpg",
       "category": ["Food & Restaurants"]
@@ -2561,7 +2568,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Eastpoint Mall" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.eastpoint.sg/images/48785Redhill_Logo%20(resized).jpg",
       "category": ["Food & Restaurants"]
@@ -2655,7 +2662,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Eastpoint Mall" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.eastpoint.sg/images/BritishEssential_logo.jpg",
       "category": ["Hair & Beauty"]
@@ -2687,7 +2694,7 @@
         { "id": 1, "mallName": "Eastpoint Mall" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.eastpoint.sg/images/CC3000%20Logo_Eastpoint%20Mall%20Use.jpg",
       "category": ["Food & Restaurants"]
@@ -2779,7 +2786,7 @@
       "location": [
         { "id": 1, "mallName": "Eastpoint Mall" },
         { "id": 2, "mallName": "Hougang Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.eastpoint.sg/images/u-fair-price.jpg",
       "category": ["Supermarket"]
@@ -2834,7 +2841,7 @@
       "location": [
         { "id": 1, "mallName": "Eastpoint Mall" },
         { "id": 2, "mallName": "Hougang Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.eastpoint.sg/images/425Global%20Art.jpg",
       "category": ["Schools & Offices"]
@@ -2889,7 +2896,7 @@
       "location": [
         { "id": 1, "mallName": "Eastpoint Mall" },
         { "id": 2, "mallName": "Hougang Mall" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.eastpoint.sg/images/522Hockhua%20Tonic_380x275.jpg",
       "category": ["Pharmacy & Healthcare"]
@@ -2959,7 +2966,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Eastpoint Mall" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.eastpoint.sg/images/180Tiong%20Bahru%20Plaza_KRTC_Logo.jpg",
       "category": ["Schools & Offices"]
@@ -2996,7 +3003,7 @@
         { "id": 1, "mallName": "Eastpoint Mall" },
         { "id": 2, "mallName": "Hougang Mall" },
         { "id": 3, "mallName": "Waterway Point" },
-        { "id": 4, "mallName": "Waterway Point" }
+        { "id": 4, "mallName": "White Sands" }
       ],
       "image": "https://www.eastpoint.sg/images/10Lenskart%20new%20380px%20x%20275px.jpg",
       "category": ["Optical"]
@@ -3226,7 +3233,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Eastpoint Mall" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.eastpoint.sg/images/New%20Project%20(71).jpg",
       "category": ["Fashion Wear & Accessories"]
@@ -3310,7 +3317,7 @@
       "location": [
         { "id": 1, "mallName": "Eastpoint Mall" },
         { "id": 2, "mallName": "Waterway Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.eastpoint.sg/images/133380x275%20Tori%20Q.png",
       "category": ["Food & Restaurants"]
@@ -3498,7 +3505,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Hougang Mall" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.hougangmall.com.sg/images/303Design%20&%20Comfort_logo.jpg",
       "category": ["Leather Goods, Bags & Shoes"]
@@ -3509,7 +3516,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Hougang Mall" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.hougangmall.com.sg/images/Daun%20Pandan%20Rice%20Dumpling_logo.jpg",
       "category": ["Food & Restaurants"]
@@ -3775,7 +3782,7 @@
       "location": [
         { "id": 1, "mallName": "Hougang Mall" },
         { "id": 2, "mallName": "Waterway Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.hougangmall.com.sg/images/811Moneymax%20logo%20380x275.jpg",
       "category": ["Jewellery & Watches", "Services"]
@@ -3835,7 +3842,7 @@
       "location": [
         { "id": 1, "mallName": "Hougang Mall" },
         { "id": 2, "mallName": "The Centrepoint" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.hougangmall.com.sg/images/424Pet%20Lovers%20Centre_logo.jpg",
       "category": ["Services"]
@@ -3854,7 +3861,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Hougang Mall" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.hougangmall.com.sg/images/147Q_M_Logo.jpg",
       "category": ["Pharmacy & Healthcare"]
@@ -3912,7 +3919,7 @@
       "location": [
         { "id": 1, "mallName": "Hougang Mall" },
         { "id": 2, "mallName": "Waterway Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.hougangmall.com.sg/images/797Sorella%20logo%20380Wx275H.jpg",
       "category": ["Fashion Wear & Accessories"]
@@ -3940,7 +3947,7 @@
       "location": [
         { "id": 1, "mallName": "Hougang Mall" },
         { "id": 2, "mallName": "Waterway Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.hougangmall.com.sg/images/Sushi%20Express%20Logo%20380x275.jpg",
       "category": ["Food & Restaurants"]
@@ -3979,7 +3986,7 @@
       "location": [
         { "id": 1, "mallName": "Hougang Mall" },
         { "id": 2, "mallName": "Waterway Point" },
-        { "id": 3, "mallName": "Waterway Point" }
+        { "id": 3, "mallName": "White Sands" }
       ],
       "image": "https://www.hougangmall.com.sg/images/48Unity.jpg",
       "category": ["Pharmacy & Healthcare"]
@@ -4536,7 +4543,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "The Centrepoint" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.thecentrepoint.com.sg/images/194kopi%20&%20tarts%20logo.jpg",
       "category": ["Food & Restaurants"]
@@ -5038,7 +5045,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Waterway Point" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.waterwaypoint.com.sg/images/562beijing-language-school380.jpg",
       "category": ["Schools & Offices"]
@@ -5081,7 +5088,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Waterway Point" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.waterwaypoint.com.sg/images/Challenger-mobile-380x275.jpg",
       "category": ["Electrical, Electronic, Camera & Telecommunication"]
@@ -5228,7 +5235,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Waterway Point" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.waterwaypoint.com.sg/images/956Freeman%20Florist%20380.jpg",
       "category": ["Gifts", "Services"]
@@ -5239,7 +5246,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Waterway Point" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.waterwaypoint.com.sg/images/421logo%20380X275.png",
       "category": ["Amusement/Entertainment"]
@@ -5474,7 +5481,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Waterway Point" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.waterwaypoint.com.sg/images/557kskin%20logo.jpg",
       "category": ["Hair & Beauty"]
@@ -5541,7 +5548,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Waterway Point" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.waterwaypoint.com.sg/images/277380%20X%20275.png",
       "category": ["Pharmacy & Healthcare"]
@@ -5576,7 +5583,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Waterway Point" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.waterwaypoint.com.sg/images/477NK%20Hairworks%20Logo_380x275.jpg",
       "category": ["Hair & Beauty"]
@@ -5931,7 +5938,7 @@
     "storeDetails": {
       "location": [
         { "id": 1, "mallName": "Waterway Point" },
-        { "id": 2, "mallName": "Waterway Point" }
+        { "id": 2, "mallName": "White Sands" }
       ],
       "image": "https://www.waterwaypoint.com.sg/images/XDCR.jpg",
       "category": ["Food & Restaurants"]
@@ -5964,7 +5971,7 @@
   {
     "storeName": "57°C Mala Fragrant Pot",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_57%20Mala_logo.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -5972,7 +5979,7 @@
   {
     "storeName": "Accentz",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Accentz_logo.jpg",
       "category": ["Fashion Wear & Accessories"]
     }
@@ -5980,7 +5987,7 @@
   {
     "storeName": "AGrader Learning Centre",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/AGrader%20Learning%20Centre%20Logo%20-%20380px%20x%20275px.jpg",
       "category": ["Schools & Offices"]
     }
@@ -5988,7 +5995,7 @@
   {
     "storeName": "Ai Tang Zu",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/Ai%20Tang%20Zu.jpg",
       "category": ["Fashion Wear & Accessories"]
     }
@@ -5996,7 +6003,7 @@
   {
     "storeName": "AsterSpring",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/0aster-spring.jpg",
       "category": ["Hair & Beauty"]
     }
@@ -6004,7 +6011,7 @@
   {
     "storeName": "Clippers Barber",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/Clippers%20(380%20x%20275).jpg",
       "category": ["Hair & Beauty"]
     }
@@ -6012,7 +6019,7 @@
   {
     "storeName": "Cookhouse By Koufu",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Koufu_logo.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6020,7 +6027,7 @@
   {
     "storeName": "Cube Sprout",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Cube%20Sprout_logo.jpg",
       "category": ["Toys & Collectibles"]
     }
@@ -6028,7 +6035,7 @@
   {
     "storeName": "Donna Spa",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Donna%20Spa_logo.jpg",
       "category": ["Hair & Beauty"]
     }
@@ -6036,7 +6043,7 @@
   {
     "storeName": "Duke Bakery",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Duke%20Bakery_logo.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6044,7 +6051,7 @@
   {
     "storeName": "Edo Shokudo",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/Edo%20Shokudo%20logo.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6052,7 +6059,7 @@
   {
     "storeName": "Eurotex",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Eurotex_logo.jpg",
       "category": ["Furniture, Furnishings and Household,Gifts"]
     }
@@ -6060,7 +6067,7 @@
   {
     "storeName": "Famous Amos",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/626Famous%20Amos%20Logo%20(380x275).jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6068,7 +6075,7 @@
   {
     "storeName": "G Military",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_G%20Military_logo.jpg",
       "category": ["Sports & Leisure"]
     }
@@ -6076,7 +6083,7 @@
   {
     "storeName": "HELEN",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/52965helen.jpg",
       "category": ["Fashion Wear & Accessories"]
     }
@@ -6084,7 +6091,7 @@
   {
     "storeName": "Jean Yip Beauty",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Jean%20Yip%20Beauty_logo.jpg",
       "category": ["Hair & Beauty"]
     }
@@ -6092,7 +6099,7 @@
   {
     "storeName": "Jean Yip Hairdressing",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Jean%20Yip%20Hairdressing_logo.jpg",
       "category": ["Hair & Beauty"]
     }
@@ -6100,7 +6107,7 @@
   {
     "storeName": "",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Jiak%20Zhey_logo.jpg",
       "category": [""]
     }
@@ -6108,7 +6115,7 @@
   {
     "storeName": "K Shoes & Bags Services",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_K%20Shoes%20_%20Bags%20Services_logo.jpg",
       "category": ["Services"]
     }
@@ -6116,7 +6123,7 @@
   {
     "storeName": "LWL",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/LWL%20placeholder%20logo%20380x275.jpg",
       "category": ["Fashion Wear & Accessories"]
     }
@@ -6124,7 +6131,7 @@
   {
     "storeName": "Ma Kuang TCM Women’s and Children’s Clinic",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/WC%20MK%20LOGO%20FOR%20WHITE%20SANDS%20_640PX%20WIDE%20X%20490PX%20HEIGHT-01.jpg",
       "category": ["Services"]
     }
@@ -6132,7 +6139,7 @@
   {
     "storeName": "Men Men Don Don",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/602Men%20Men%20Don%20Don%20Logo%20380x275.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6140,7 +6147,7 @@
   {
     "storeName": "Music Delight School",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Music%20Delight%20School_logo.jpg",
       "category": ["Schools & Offices"]
     }
@@ -6148,7 +6155,7 @@
   {
     "storeName": "Myeongdong Hair Studio",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Myeong%20Dong_logo.jpg",
       "category": ["Hair & Beauty"]
     }
@@ -6156,7 +6163,7 @@
   {
     "storeName": "Oriental Herbal Tea",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Oriental%20Herbal%20Tea_logo.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6164,7 +6171,7 @@
   {
     "storeName": "Pasir Ris Public Library",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Pasir%20Ris%20Public%20Library_logo.jpg",
       "category": ["Services"]
     }
@@ -6172,7 +6179,7 @@
   {
     "storeName": "Perfetto",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Perfetto_logo.jpg",
       "category": ["Fashion Wear & Accessories"]
     }
@@ -6180,7 +6187,7 @@
   {
     "storeName": "Pontian Wanton Noodles",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Pon%20Tian_logo.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6188,7 +6195,7 @@
   {
     "storeName": "Poulet",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/879poulet.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6196,7 +6203,7 @@
   {
     "storeName": "Raffles Dental",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/30raffles-dental.jpg",
       "category": ["Pharmacy & Healthcare"]
     }
@@ -6204,7 +6211,7 @@
   {
     "storeName": "Rahim Traders Money Changer",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Rahim%20Money%20Changer_logo.jpg",
       "category": ["Bank & Money Changer"]
     }
@@ -6212,7 +6219,7 @@
   {
     "storeName": "Sciencewerkz",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Sciencewerks_logo.jpg",
       "category": ["Schools & Offices"]
     }
@@ -6220,7 +6227,7 @@
   {
     "storeName": "Shreeyaasha Hair & Beauty Salon",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Shreeyasha_logo.jpg",
       "category": ["Hair & Beauty"]
     }
@@ -6228,7 +6235,7 @@
   {
     "storeName": "Soup Cup",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/Soup%20Cup%20(380%20x%20275).jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6236,7 +6243,7 @@
   {
     "storeName": "Sunlife Durian Puffs & Pastries",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/202sunlife_logo_700x350.png",
       "category": ["Food & Restaurants"]
     }
@@ -6244,7 +6251,7 @@
   {
     "storeName": "Swee Heng 1989 Classic",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/888842swee-heng.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6252,7 +6259,7 @@
   {
     "storeName": "Sweet Home",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Sweet%20Home_logo.jpg",
       "category": ["Furniture, Furnishings and Household,Gifts"]
     }
@@ -6260,7 +6267,7 @@
   {
     "storeName": "SYOUJIN",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/52899Syoujin_380x275.jpg",
       "category": ["Hair & Beauty"]
     }
@@ -6268,7 +6275,7 @@
   {
     "storeName": "Tenderfresh Rice & Box",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Rice%20_%20Box_logo.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6276,7 +6283,7 @@
   {
     "storeName": "Teo Heng KTV",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/752294Teo%20Heng.jpg",
       "category": ["Amusement/Entertainment"]
     }
@@ -6284,7 +6291,7 @@
   {
     "storeName": "Tokyo Zone 1945",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/Tokyo%20Zone%20placeholder%20logo%20380x275.jpg",
       "category": ["Fashion Wear & Accessories"]
     }
@@ -6292,7 +6299,7 @@
   {
     "storeName": "Tsujiri",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/403tsujiri.webp",
       "category": ["Food & Restaurants"]
     }
@@ -6300,7 +6307,7 @@
   {
     "storeName": "UBreakifix.sg",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/591883ubreakifix.png",
       "category": ["Services"]
     }
@@ -6308,7 +6315,7 @@
   {
     "storeName": "UFO Hot Pot by ThaiExpress",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/TE%20UFO_LL_LOGO_380X275px%20(002).jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6316,7 +6323,7 @@
   {
     "storeName": "XCYD",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_XYCD_logo.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6324,7 +6331,7 @@
   {
     "storeName": "Xin Wang Hong Kong Café",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/790xinwang.jpg",
       "category": ["Food & Restaurants"]
     }
@@ -6332,7 +6339,7 @@
   {
     "storeName": "Y.Y. Household",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/White%20Sands_Y.Y%20Household_logo.jpg",
       "category": ["Furniture, Furnishings and Household,Gifts"]
     }
@@ -6340,7 +6347,7 @@
   {
     "storeName": "Yakiniku Ok!",
     "storeDetails": {
-      "location": [{ "id": 1, "mallName": "Waterway Point" }],
+      "location": [{ "id": 1, "mallName": "White Sands" }],
       "image": "https://www.whitesands.com.sg/images/yakiniku%20ok.jpg",
       "category": ["Food & Restaurants"]
     }

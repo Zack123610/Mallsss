@@ -4,7 +4,7 @@ import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import { getCurrentPositionAsync, useForegroundPermissions, PermissionStatus } from 'expo-location';
 import MapViewDirections from 'react-native-maps-directions';
 // import { useRef } from 'react'; // For google map camera
-import app from '../app.json';
+import app from '../../app.json';
 
 // import { useNavigation } from '@react-navigation/native';
 

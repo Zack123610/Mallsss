@@ -9,6 +9,7 @@ import Settings from "./src/screens/Settings";
 import CarparkOrMallScreen from './src/screens/CarparkOrMallScreen';
 import Map from './src/screens/Map';
 import ResultScreen from './src/screens/ResultScreen';
+import DoneButton from './components/UI/DoneButton';
 
 import React, { useState, useEffect } from "react";
 

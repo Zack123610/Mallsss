@@ -21,6 +21,17 @@ export default {
     ios: {
       supportsTablet: true,
     },
+    android: {
+      adaptiveIcon: {
+        foregroundImage: "./assets/adaptive-icon.png",
+        backgroundColor: "#ffffff"
+      },
+      config: {
+        googleMaps: {
+          apiKey: "AIzaSyBaHBhGtRfZsYb2DncEhErIHUhLLQDaqC8"
+        }
+      }
+    },
     extra: {
       apiKey: process.env.API_KEY,
       authDomain: process.env.AUTH_DOMAIN,

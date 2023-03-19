@@ -1,23 +1,14 @@
 import React, {useState, useContext} from 'react';
-import { View, Text, Switch, StyleSheet, Button } from 'react-native';
-import { EventRegister } from 'react-native-event-listeners';
+import { View, Text, Button, StyleSheet } from 'react-native';
 import themeContext from '../src/features/themeContext';
 
-export default function Settings({navigation}) {
+export default function Homepage({navigation}) {
     const theme = useContext(themeContext);
-    const [mode, setMode] = useState(false);
     
     return (
         <View style={[styles.container,{backgroundColor: theme.background}]}>
             <Text style={[styles.text, {color: theme.color}]}>Theme</Text>
-            <Switch value = {mode} onValueChange={(value) => {
-                setMode(value)
-                EventRegister.emit("changeTheme", value);
-                }}/>
-
-            <Button title='Second page' onPress={() => navigation.navigate("Homepage")}>
-
-            </Button>
+            <Button title='Second page' onPress={() => navigation.navigate("Settings")}></Button>
         </View>
     );
 }

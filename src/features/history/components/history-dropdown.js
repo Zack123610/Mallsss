@@ -44,7 +44,7 @@ export const HistoryDropdown = ({ sortOption, setSortOption }) => {
             paddingHorizontal: 10,
             marginLeft: 180,
             position: "absolute",
-            top: 0,
+            top: 35,
             left: 0,
             right: 16,
             backgroundColor: "#fff",

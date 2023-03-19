@@ -6,14 +6,9 @@ import UpdatePassword from './src/screens/UpdatePassword';
 import HomePage from "./src/screens/HomePage";
 import Settings from "./src/screens/Settings";
 
-// export default function App() {
-//   return (
-//     <View style={styles.container}>
-//       <Text>Open up App.js to start working on your app!</Text>
-//       <StatusBar style="auto" />
-//     </View>
-//   );
-// }
+import CarparkOrMallScreen from './src/screens/CarparkOrMallScreen';
+import Map from './src/screens/Map';
+import ResultScreen from './src/screens/ResultScreen';
 
 import React, { useState, useEffect } from "react";
 
@@ -48,6 +43,22 @@ export default function App(){
             <Stack.Screen name = "Settings" component = {Settings}/>
             <Stack.Screen name = "Homepage" component = {HomePage}/>
             <Stack.Screen name = "UpdatePassword" component = {UpdatePassword}/>
+            <Stack.Screen name="CarparkOrMallScreen" component={CarparkOrMallScreen} />
+            <Stack.Screen
+              name="Map"
+              component={Map}
+              options={({ navigation }) => ({
+                headerRight: () => (
+                  <DoneButton
+                    name="done-outline"
+                    size={24}
+                    color="black"
+                    onPress={() => navigation.navigate('ResultScreen')}
+                  />
+                ),
+              })}
+            />
+            <Stack.Screen name="ResultScreen" component={ResultScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </themeContext.Provider>

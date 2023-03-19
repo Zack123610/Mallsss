@@ -4,6 +4,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import UpdatePassword from './src/screens/UpdatePassword';
 import HomePage from "./src/screens/HomePage";
+import TabNavigator from "./src/screens/TabNavigator";
+
 
 // export default function App() {
 //   return (
@@ -17,10 +19,11 @@ import HomePage from "./src/screens/HomePage";
 const navigator = createStackNavigator(
   {
     Home: HomePage,
-    Update: UpdatePassword
+    Update: UpdatePassword,
+    Navigator: TabNavigator
   },
   {
-    initialRouteName: "Home", //which component to show first
+    initialRouteName: "Navigator", //which component to show first
     defaultNavigationOptions: {
       title: "App",
     },
@@ -28,12 +31,3 @@ const navigator = createStackNavigator(
 );
 
 export default createAppContainer(navigator);
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });

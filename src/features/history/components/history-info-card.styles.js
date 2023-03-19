@@ -4,30 +4,27 @@ import { Card } from "react-native-paper";
 export const Icon = styled.Image`
   width: 15px;
   height: 15px;
+  position: relative;
+  z-index: 1;
 `;
 
 export const HistoryCard = styled(Card)`
   background-color: ${(props) => props.theme.colors.ui.tertiary};
+  position: relative;
+  z-index: 1;
 `;
 
 export const HistoryCardCover = styled(Card.Cover)`
   padding: ${(props) => props.theme.space[3]};
   background-color: ${(props) => props.theme.colors.ui.tertiary};
-`;
-
-export const Address = styled.Text`
-  font-family: ${(props) => props.theme.fonts.body};
-  font-size: ${(props) => props.theme.fontSizes.caption};
+  position: relative;
+  z-index: 1;
 `;
 
 export const Info = styled.View`
   padding: ${(props) => props.theme.space[3]};
-`;
-
-export const Rating = styled.View`
-  flex-direction: row;
-  padding-top: ${(props) => props.theme.space[2]};
-  padding-bottom: ${(props) => props.theme.space[2]};
+  position: relative;
+  z-index: 1;
 `;
 
 export const Stores = styled.Text`
@@ -35,6 +32,8 @@ export const Stores = styled.Text`
   font-size: ${(props) => props.theme.fontSizes.caption};
   color: ${(props) => props.theme.colors.ui.secondary};
   padding-top: ${(props) => props.theme.space[1]};
+  position: relative;
+  z-index: 1;
 `;
 
 export const Section = styled.View`

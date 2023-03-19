@@ -1,25 +1,31 @@
-import * as React from 'react';
-import { View, Text, TouchableOpacity} from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import React, {useState, useContext} from 'react';
+import { View, Text, Switch, StyleSheet } from 'react-native';
+import { EventRegister } from 'react-native-event-listeners';
+import themeContext from '../src/features/themeContext';
 
-function Settings() {
+export default function Settings() {
+    const theme = useContext(themeContext);
+    const [mode, setMode] = useState(false);
     return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <TouchableOpacity>
-                <Text>
-                    Update Password
-                </Text>
-            </TouchableOpacity>
-            <TouchableOpacity>
-                <Text>
-                    Theme
-                </Text>
-            </TouchableOpacity>
+        <View style={[styles.container,{backgroundColor: theme.background}]}>
+            <Text style={[styles.text, {color: theme.color}]}>Theme</Text>
+            <Switch value = {mode} onValueChange={(value) => {
+                setMode(value)
+                EventRegister.emit("changeTheme", value);
+                }}/>
         </View>
     );
 }
 
-export default Settings;
-
-
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent:"center",
+        alignItems: "center",
+    },
+    text:{
+        fontWeight: "bold",
+        fontSize: 20,
+        paddingBottom: 20,
+    }
+})

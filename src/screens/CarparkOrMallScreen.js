@@ -2,11 +2,16 @@ import { Button, StyleSheet, Text, View } from 'react-native';
 
 import { useNavigation } from '@react-navigation/native';
 
-function CarparkOrMallScreen() {
+function CarparkOrMallScreen( {route} ) {
     const navigation = useNavigation();
+    const resultMall = route.params.resultMall;
+    const resultStores = route.params.resultStores;
 
     function mapSelectedHandler() {
-        navigation.navigate('Map');
+      navigation.navigate('Map', {
+        resultMall: resultMall,
+        resultStores: resultStores,
+      });
     }
 
     function carparkChoiceHandler() {

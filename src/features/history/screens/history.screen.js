@@ -47,8 +47,8 @@ export const HistoryScreen = () => {
 };
 
 const DropdownAlignment = styled.View`
-  marginright: 20px;
+  marginRight: 20px;
   flex-direction: row;
   justify-content: flex-end;
-  zindex: 1;
+  zIndex: 1;
 `;

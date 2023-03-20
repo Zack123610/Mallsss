@@ -1,12 +1,7 @@
 import React from "react";
-import { SvgXml } from "react-native-svg";
-
 import { TouchableOpacity, StyleSheet, View } from "react-native";
 import { Spacer } from "../../../components/spacer/spacer.component";
 import { Text } from "../../../components/typography/text.component";
-// import open from "../../../../assets/open";
-import { FlatList } from "react-native";
-import historyDummyData from "../../../services/history/mock/historyDummyData.json";
 
 const styles = StyleSheet.create({
   bold: { fontWeight: "bold" },

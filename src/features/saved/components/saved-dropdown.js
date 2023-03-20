@@ -19,6 +19,7 @@ export const HistoryDropdown = ({ sortOption, setSortOption }) => {
     <View style={{ flexDirection: "row", alignItems: "center" }}>
       <TouchableOpacity
         style={{
+          width: 218,
           borderWidth: 1,
           borderColor: "#ccc",
           borderRadius: 4,

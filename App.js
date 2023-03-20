@@ -95,6 +95,7 @@ const Saved = () => (
 
 const TAB_ICON = {
   Home: "home",
+  Stores: "nav-icon-list-a",
   Saved: "favorite",
   History: "history",
   Settings: "player-settings",
@@ -126,6 +127,7 @@ const createScreenOptions = ({ route }) => {
             }}
           >
             <Tab.Screen name="Home" component={Home} />
+            <Tab.Screen name="Stores" component={Home} />
             <Tab.Screen name="Saved" component={Saved} />
             <Tab.Screen name="History" component={HistoryScreen} />
             <Tab.Screen name="Settings" component={Settings} />

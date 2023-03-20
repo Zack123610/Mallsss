@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "styled-components/native";
-import { FlatList } from "react-native";
+import { FlatList, View } from "react-native";
 import { HistoryInfoCard } from "../components/history-info-card.component";
 import { Spacer } from "../../../components/spacer/spacer.component";
 import { SafeArea } from "../../../components/utility/safe-area.component";
@@ -10,7 +10,6 @@ import { HistoryDropdown } from "../components/history-dropdown";
 
 export const HistoryScreen = () => {
   const [sortOption, setSortOption] = useState("Most Recent");
-  const [filter, setFilter] = useState([]);
   let sortedData = [...historyDummyData];
 
   if (sortOption === "Most Recent") {
@@ -23,32 +22,34 @@ export const HistoryScreen = () => {
 
   return (
     <SafeArea>
-      <Spacer position="top" size="large" />
-      <DropdownAlignment>
-        <HistoryDropdown
-          sortOption={sortOption}
-          setSortOption={setSortOption}
-        />
-      </DropdownAlignment>
-      <Spacer position="" size="large">
-        <FlatList
-          data={sortedData}
-          renderItem={({ item }) => (
-            <Spacer position="bottom" size="large">
-              <HistoryInfoCard history={item} />
-            </Spacer>
-          )}
-          keyExtractor={(item) => item.id}
-          contentContainerStyle={{ padding: 20 }}
-        />
-      </Spacer>
+      <View style={{ backgroundColor: "#E7F4F2" }}>
+        <Spacer position="top" size="large" />
+        <DropdownAlignment>
+          <HistoryDropdown
+            sortOption={sortOption}
+            setSortOption={setSortOption}
+          />
+        </DropdownAlignment>
+        <Spacer position="" size="large">
+          <FlatList
+            data={sortedData}
+            renderItem={({ item }) => (
+              <Spacer position="bottom" size="large">
+                <HistoryInfoCard history={item} />
+              </Spacer>
+            )}
+            keyExtractor={(item) => item.id}
+            contentContainerStyle={{ padding: 20 }}
+          />
+        </Spacer>
+      </View>
     </SafeArea>
   );
 };
 
 const DropdownAlignment = styled.View`
-  marginRight: 20px;
+  margin-right: 20px;
   flex-direction: row;
   justify-content: flex-end;
-  zIndex: 1;
+  z-index: 1;
 `;

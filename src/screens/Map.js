@@ -5,6 +5,7 @@ import { getCurrentPositionAsync, useForegroundPermissions, PermissionStatus } f
 import MapViewDirections from 'react-native-maps-directions';
 // import { useRef } from 'react'; // For google map camera
 import app from '../../app.config.js';
+import DoneButton from '../components/UI/DoneButton';
 
 // import { useNavigation } from '@react-navigation/native';
 

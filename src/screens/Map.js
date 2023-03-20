@@ -8,11 +8,13 @@ import app from '../../app.config.js';
 
 // import { useNavigation } from '@react-navigation/native';
 
-function Map() {
+function Map( {route} ) {
   const [currentLocation, setCurrentLocation] = useState();
   const [locationPermissionInformation, requestPermission] = useForegroundPermissions();
-//   const navigation = useNavigation();
+  const navigation = useNavigation();
   const api_key = app.expo.android.config.googleMaps.apiKey;
+  const resultMall = route.params.resultMall;
+  const resultStores = route.params.resultStores;
 
   const region = {
     latitude: 1.35, //location.latitude
@@ -60,6 +62,27 @@ function Map() {
   useEffect(() => {
     getLocationHandler();
   }, []);
+
+    // For Done button to navigate to Result Screen
+    function headerButtonPressHandler() {
+      navigation.navigate('ResultScreen', {
+        resultMall: resultMall,
+        resultStores: resultStores,
+      });
+  }
+
+  useLayoutEffect(() => {
+    navigation.setOptions({
+        headerRight: () =>  (
+          <DoneButton
+            name="done-outline"
+            size={24}
+            color="black"
+            onPress={() => navigation.navigate('ResultScreen')}
+          />
+        )
+    });
+  }, [navigation, headerButtonPressHandler]);
 
   // const origin = currentLocation ? {latitude: currentLocation.lat, longitude: currentLocation.lng} : null;
   const origin = {latitude: 1.3432438, longitude: 103.682751};

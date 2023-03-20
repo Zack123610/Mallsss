@@ -3,6 +3,7 @@ import { TouchableOpacity, StyleSheet, View } from "react-native";
 import { Spacer } from "../../../components/spacer/spacer.component";
 import { Text } from "../../../components/typography/text.component";
 import { Fontisto } from "@expo/vector-icons";
+import { Saved } from "../../../components/saved/saved.component";
 
 const styles = StyleSheet.create({
   bold: { fontWeight: "bold" },
@@ -19,10 +20,6 @@ import {
   SectionEnd,
 } from "./saved-info-card.styles";
 
-const TAB_ICON = {
-  Saved: "favorite",
-};
-
 //RMB TO SET SAVED AS AN EMPTY OBJECT otherwise it'll be undefined & break
 export const SavedInfoCard = ({ saved = {} }) => {
   //setting this as default
@@ -34,7 +31,10 @@ export const SavedInfoCard = ({ saved = {} }) => {
 
   return (
     <SavedCard elevation={5}>
-      <SavedCardCover key={store} source={{ uri: photo }} />
+      <View>
+         <Saved store={store}/>
+        <SavedCardCover key={store} source={{ uri: photo }} />
+      </View>
       <Info>
         <Text variant="subcaption" style={{ marginBottom: 5 }}>
           {" "}

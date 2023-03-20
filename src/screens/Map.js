@@ -64,12 +64,12 @@ function Map( {route} ) {
     getLocationHandler();
   }, []);
 
-    // For Done button to navigate to Result Screen
-    function headerButtonPressHandler() {
-      navigation.navigate('ResultScreen', {
-        resultMall: resultMall,
-        resultStores: resultStores,
-      });
+  // For Done button to navigate to Result Screen
+  function headerButtonPressHandler() {
+    navigation.navigate('ResultScreen', {
+      resultMall: resultMall,
+      resultStores: resultStores,
+    });
   }
 
   useLayoutEffect(() => {
@@ -79,7 +79,7 @@ function Map( {route} ) {
             name="done-outline"
             size={24}
             color="black"
-            onPress={() => navigation.navigate('ResultScreen')}
+            onPress={headerButtonPressHandler}
           />
         )
     });

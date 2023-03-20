@@ -45,20 +45,7 @@ export default function App(){
             <Stack.Screen name = "Homepage" component = {HomePage}/>
             <Stack.Screen name = "UpdatePassword" component = {UpdatePassword}/>
             <Stack.Screen name="CarparkOrMallScreen" component={CarparkOrMallScreen} />
-            <Stack.Screen
-              name="Map"
-              component={Map}
-              options={({ navigation }) => ({
-                headerRight: () => (
-                  <DoneButton
-                    name="done-outline"
-                    size={24}
-                    color="black"
-                    onPress={() => navigation.navigate('ResultScreen')}
-                  />
-                ),
-              })}
-            />
+            <Stack.Screen name="Map" component={Map} />
             <Stack.Screen name="ResultScreen" component={ResultScreen} />
         </Stack.Navigator>
       </NavigationContainer>

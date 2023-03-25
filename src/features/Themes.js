@@ -1,14 +1,58 @@
 const theme = {
-    light: {
-        theme: "light",
-        colour: "#007AFF",
-        background: "#B9DCE3",
+    // light colours
+    light:{
+            theme: "light",
+            background: "#E7F4F2",  
+        brand: {
+            primary: "#2182BD",
+            secondary: "#5282BD",
+            muted: "#C6DAF7",
+          },
+          ui: {
+            primary: "#E7F4F2", //lightest turquoise
+            secondary: "#C9E8E3", //lighter turquoise
+            tertiary: "#7FB4AC", //darker turquoise
+            quaternary: "#243D3A", //darkest green
+            disabled: "#DEDEDE",
+            error: "#D0421B",
+            success: "#138000",
+          },
+          text: {
+            primary: "#436661",
+            disabled: "#9C9C9C",
+            inverse: "#",
+            error: "#D0421B",
+            success: "#138000",
+          },
     },
-    dark: {
-        theme: "dark",
-        colour: "#BB86FC",
-        background: "#1212",
-    },
-};
-
+    
+    
+    
+    // dark colors
+    dark:{
+            theme: "dark",
+            background: "#243D3A",
+        brand: {
+            primary: "#5282BD",
+            secondary: "#2182BD",
+            muted: "#C6DAF7",
+          },
+          ui: {
+            primary: "#243D3A", 
+            secondary: "#7FB4AC", 
+            tertiary: "#C9E8E3", 
+            quaternary: "#E7F4F2", 
+            disabled: "#DEDEDE",
+            error: "#D0421B",
+            success: "#138000",
+          },
+          text: {
+            primary: "#E7F4F2",
+            disabled: "#9C9C9C",
+            inverse: "#FFFFFF",
+            error: "#D0421B",
+            success: "#138000",
+          },
+    }
+}
 export default theme;

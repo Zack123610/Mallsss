@@ -5,19 +5,18 @@ import themeContext from '../src/features/themeContext';
 
 export default function Settings({navigation}) {
     const theme = useContext(themeContext);
-    const [mode, setMode] = useState(false);
+    const [mode, setMode] = useState(theme.background == "#243D3A"? true:false);
     
     return (
         <View style={[styles.container,{backgroundColor: theme.background}]}>
-            <Text style={[styles.text, {color: theme.color}]}>Theme</Text>
-            <Switch value = {mode} onValueChange={(value) => {
+            <Text style={[styles.text, {color: theme.text.primary}]}>Theme</Text>
+            <Switch value = {mode} 
+                onValueChange={(value) => {
                 setMode(value)
                 EventRegister.emit("changeTheme", value);
                 }}/>
 
-            <Button title='Second page' onPress={() => navigation.navigate("Homepage")}>
-
-            </Button>
+            <Button title='Second page' onPress={() => navigation.navigate("Homepage")}/>
         </View>
     );
 }

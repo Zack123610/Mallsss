@@ -4,10 +4,11 @@ import themeContext from '../src/features/themeContext';
 
 export default function Homepage({navigation}) {
     const theme = useContext(themeContext);
-    
+    const [mode, setMode] = useState(false);
+
     return (
         <View style={[styles.container,{backgroundColor: theme.background}]}>
-            <Text style={[styles.text, {color: theme.color}]}>Theme</Text>
+            <Text style={[styles.text, {color: theme.text.primary}]}>Theme</Text>
             <Button title='Second page' onPress={() => navigation.navigate("Settings")}></Button>
         </View>
     );

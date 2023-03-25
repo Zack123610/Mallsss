@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, StatusBar } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { EventRegister } from 'react-native-event-listeners';
@@ -16,8 +16,8 @@ const App = () => {
     let eventListener = EventRegister.addEventListener(
       "changeTheme",
       (data) => {
-        setMode(data);
-        console.log(data);
+      setMode(data);
+      console.log(data);
       }
     );
     return () => {

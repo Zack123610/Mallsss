@@ -25,6 +25,7 @@
     "babel-plugin-react-native-classname-to-style": "^1.2.2",
     "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
     "dotenv": "^16.0.3",
+    "expo-crypto": "^12.2.1",
     "expo-location": "^15.1.1",
     "install": "^0.13.0",
     "react-native": "^0.71.4",

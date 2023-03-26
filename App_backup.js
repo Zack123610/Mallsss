@@ -3,7 +3,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import UpdatePassword from './src/screens/UpdatePassword';
-import HomePage from "./src/screens/HomePage";
+// import HomePage from "./src/screens/HomePage";
 import Settings from "./src/screens/Settings";
 
 import CarparkOrMallScreen from './src/screens/CarparkOrMallScreen';
@@ -41,7 +41,7 @@ export default function App(){
         <Stack.Navigator>
             {/* name is the variable to refer */}
             <Stack.Screen name = "Settings" component = {Settings}/>
-            <Stack.Screen name = "Homepage" component = {HomePage}/>
+            {/* <Stack.Screen name = "Homepage" component = {HomePage}/> */}
             <Stack.Screen name = "UpdatePassword" component = {UpdatePassword}/>
             <Stack.Screen name="CarparkOrMallScreen" component={CarparkOrMallScreen} />
             <Stack.Screen name="Map" component={Map} />

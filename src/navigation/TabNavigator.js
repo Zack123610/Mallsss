@@ -5,11 +5,15 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 // import Profile from '../components/Profile';
 // import TabBar from '../components/TabBar';
 // import ProfileNavigator from './ProfileNavigator';
-import Home from '../components/Home';
-import Create from '../components/Create';
-import Profile from '../components/Profile';
+// import Home from '../components/Settings';
 import TabBar from '../components/TabBar';
-import ProfileNavigator from './ProfileNavigator';
+import SettingsNavigator from './SettingsNavigator';
+
+import Home from '../screens/Home';
+import List from '../screens/List';
+import History from '../screens/History';
+import Saved from '../screens/Saved';
+import Settings from '../screens/Settings';
 
 const Tab = createBottomTabNavigator();
 const TabNavigator = () => {
@@ -20,21 +24,27 @@ const TabNavigator = () => {
         component={Home}
         initialParams={{ icon: 'home' }}
       />
+      
       <Tab.Screen
-        name='Create'
-        component={Create}
-        initialParams={{ icon: 'plus' }}
+        name='List'
+        component={List}
+        initialParams={{ icon: 'bars' }}
       />
       <Tab.Screen
-        name='Profile'
-        component={ProfileNavigator}
-        initialParams={{ icon: 'user' }}
+        name='History'
+        component={History}
+        initialParams={{ icon: 'retweet' }}
       />
-      {/* <Tab.Screen
+      <Tab.Screen
+        name='Saved'
+        component={Saved}
+        initialParams={{ icon: 'book' }}
+      />
+      <Tab.Screen
         name='Settings'
         component={SettingsNavigator}
-        initialParams={{ icon: 'user' }}
-      /> */}
+        initialParams={{ icon: 'setting' }}
+      />
     </Tab.Navigator>
   );
 };

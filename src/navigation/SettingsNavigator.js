@@ -1,18 +1,17 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
-// import Profile from '../components/Profile';
-// import Test from '../components/Test';
-import Profile from '../components/Profile';
-import Test from '../components/Test';
+
+import UpdatePassword from '../screens/UpdatePassword';
+import Settings from '../screens/Settings';
 
 const Stack = createStackNavigator();
 
-const ProfileNavigator = () => {
+const SettingsNavigator = () => {
   return (
     <Stack.Navigator screenOptions={{ headerTransparent: true, title: '' }}>
-      <Stack.Screen name='Profile' component={Profile} />
-      <Stack.Screen name='Test' component={Test} />
+      <Stack.Screen name='Settings' component={Settings} />
+      <Stack.Screen name='UpdatePassword' component={UpdatePassword} />
     </Stack.Navigator>
   );
 };
@@ -21,4 +20,4 @@ const styles = StyleSheet.create({
   container: {},
 });
 
-export default ProfileNavigator;
+export default SettingsNavigator;

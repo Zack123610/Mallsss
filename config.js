@@ -10,5 +10,5 @@ const app2 = initializeApp({
 });
 
 const db = getDatabase(app1);
-const db_hisotry = getDatabase(app2)
-export { db, db_hisotry };
+const db_history = getDatabase(app2)
+export { db, db_history };

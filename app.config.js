@@ -1,4 +1,4 @@
-import "dotenv/config";
+// import "dotenv/config";
 
 export default {
   expo: {
@@ -8,7 +8,7 @@ export default {
     platforms: ["ios", "android"],
     version: "1.0.0",
     orientation: "portrait",
-    icon: "./assets/flame.png",
+    // icon: "./assets/flame.png",
     splash: {
       image: "./assets/splash.png",
       resizeMode: "cover",

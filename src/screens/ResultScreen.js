@@ -2,7 +2,8 @@ import { View, Text, StyleSheet, FlatList, Image, Button } from "react-native";
 import { useNavigation } from '@react-navigation/native';
 
 // import app from "../data/dummy-data.json";
-import newdata from "../data/database.json";
+// import newdata from "../data/database.json";
+import newdata from "../../data/database.json"
 
 const StoreItem = ({ storeName, imageUrl, unitNumber, contact }) => (
     <View style={styles.storeItem}>

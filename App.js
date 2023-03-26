@@ -33,12 +33,12 @@ export default function App() {
         <TabBarProvider>
           {/* children */}
           <NavigationContainer>
-            <Stack.Navigator>
+            {/* <Stack.Navigator> */}
               {/* <Stack.Screen name="CarparkOrMallScreen" component={CarparkOrMallScreen} />
               <Stack.Screen name="Map" component={Map} />
               <Stack.Screen name="ResultScreen" component={ResultScreen} /> */}
-              <Stack.Screen name="DummyScreen" component={DummyScreen} />
-            </Stack.Navigator>
+              {/* <Stack.Screen name="DummyScreen" component={DummyScreen} /> */}
+            {/* </Stack.Navigator> */}
             <TabNavigator />
           </NavigationContainer>
           {/* end of children */}

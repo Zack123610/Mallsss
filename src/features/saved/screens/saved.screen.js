@@ -5,20 +5,24 @@ import { SavedInfoCard } from "../components/saved-info-card.component";
 import { Spacer } from "../../../components/spacer/spacer.component";
 import { SafeArea } from "../../../components/utility/safe-area.component";
 
+import { useContext } from "react";
+import { SavedContext } from "../../../services/saved/saved.context";
 import savedDummyData from "../../../services/saved/mock/savedDummyData.json";
 import { SavedDropdown } from "../components/saved-dropdown";
 
 export const SavedScreen = () => {
+  const { isLoading, savedDetails } = useContext(SavedContext);
+
   const [sortOption, setSortOption] = useState("Most Recently Added");
   let sortedData = [...savedDummyData];
 
- if (sortOption === "A-Z") {
+  if (sortOption === "A-Z") {
     sortedData.sort((a, b) => a.store.localeCompare(b.store));
   }
 
   return (
     <SafeArea>
-      <View style={{backgroundColor : "#E7F4F2"}}>
+      <View style={{ backgroundColor: "#E7F4F2" }}>
         <Spacer position="top" size="large" />
         <DropdownAlignment>
           <SavedDropdown
@@ -31,7 +35,7 @@ export const SavedScreen = () => {
             data={sortedData}
             renderItem={({ item }) => (
               <Spacer position="bottom" size="large">
-                <SavedInfoCard saved={item} />
+                <SavedInfoCard savedDetails={item} />
               </Spacer>
             )}
             keyExtractor={(item) => item.id}

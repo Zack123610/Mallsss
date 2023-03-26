@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
+import React, { useState } from "react";
 import styled from "styled-components/native";
 import { Fontisto } from "@expo/vector-icons";
 import { TouchableOpacity } from "react-native";
@@ -12,16 +13,16 @@ const SavedButton = styled(TouchableOpacity)`
   z-index: 9;
 `;
 
-export const Saved = ({ store }) => {
+export const Saved = ({ savedDetails }) => {
   const { saved, addToSaved, removeFromSaved } = useContext(SavedContext);
-
-  const isSaved = saved.find((s) => s.placeId === store.placeId);
+  console.log(saved.length)
+  const isSaved = saved.find((s) => s.placeId === savedDetails.placeId);
   return (
     <SavedButton
       onPress={() =>
         !isSaved
-          ? addToSaved(store)
-          : removeFromSaved(store)
+          ? addToSaved(savedDetails)
+          : removeFromSaved(savedDetails)
       }
     >
       <Fontisto
@@ -32,3 +33,21 @@ export const Saved = ({ store }) => {
     </SavedButton>
   );
 };
+
+// export const Saved = ({ store }) => {
+//   const [isSaved, setIsSaved] = useState(false);
+
+//   const toggleSaved = () => {
+//     setIsSaved(!isSaved);
+//   };
+
+//   return (
+//     <SavedButton onPress={toggleSaved}>
+//       <Fontisto
+//         name={isSaved ? "bookmark-alt" : "bookmark"}
+//         size={30}
+//         color={isSaved ? "red" : "white"}
+//       />
+//     </SavedButton>
+//   );
+// };

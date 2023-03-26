@@ -5,13 +5,13 @@ import React, { createContext, useState } from "react";
  export const SavedContextProvider = ({ children }) => {
    const [saved, setSaved] = useState([]);
 
-   const add = (store) => {
-     setSaved([...saved, store]);
+   const add = (savedDetails) => {
+     setSaved([...saved, savedDetails]);
    };
 
-   const remove = (store) => {
+   const remove = (savedDetails) => {
      const newSaved = saved.filter(
-       (x) => x.placeId !== store.placeId
+       (x) => x.placeId !== savedDetails.placeId
      );
 
      setSaved(newSaved);

@@ -21,25 +21,20 @@ import {
 } from "./saved-info-card.styles";
 
 //RMB TO SET SAVED AS AN EMPTY OBJECT otherwise it'll be undefined & break
-export const SavedInfoCard = ({ saved = {} }) => {
+export const SavedInfoCard = ({ savedDetails = {} }) => {
   //setting this as default
   const {
-    date = "2023-02-04 10:21:15",
     photo = "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
     store = "Store A",
-  } = saved;
+  } = savedDetails;
 
   return (
     <SavedCard elevation={5}>
       <View>
-         <Saved store={store}/>
+         <Saved savedDetails={savedDetails}/>
         <SavedCardCover key={store} source={{ uri: photo }} />
       </View>
       <Info>
-        <Text variant="subcaption" style={{ marginBottom: 5 }}>
-          {" "}
-          {date}{" "}
-        </Text>
         <Text variant="label">{store}</Text>
       </Info>
     </SavedCard>

@@ -12,7 +12,7 @@ import SettingsNavigator from './SettingsNavigator';
 import Home from '../screens/Home';
 import List from '../screens/List';
 import History from '../screens/History';
-import Saved from '../screens/Saved';
+// import Saved from '../screens/Saved';
 import Settings from '../screens/Settings';
 
 const Tab = createBottomTabNavigator();
@@ -35,11 +35,11 @@ const TabNavigator = () => {
         component={History}
         initialParams={{ icon: 'retweet' }}
       />
-      <Tab.Screen
+      {/* <Tab.Screen
         name='Saved'
         component={Saved}
         initialParams={{ icon: 'book' }}
-      />
+      /> */}
       <Tab.Screen
         name='Settings'
         component={SettingsNavigator}

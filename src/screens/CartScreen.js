@@ -2,7 +2,7 @@ import React from "react";
 import { Text, StyleSheet, View, Image } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { FlatList } from "react-navigation";
-import { setGlobalState, useGlobalState } from "../hooks/Cart"
+import { setGlobalState, useGlobalState } from "../hooks/Global"
 import { Entypo } from '@expo/vector-icons'; 
 
 const CartScreen = () => {
@@ -47,8 +47,10 @@ const CartScreen = () => {
                     />
                     <TouchableOpacity
                         style={styles.go}
-                        onPress={()=>{}}
-                        >
+                        onPress={()=>{
+                            names = cart.map(({storeName}) => storeName)
+                            console.log(names)
+                    }}>
                         <Text style={{ margin: 10, fontSize: 16, alignSelf: "center" }}>Go!</Text>
                     </TouchableOpacity>
                 </View>

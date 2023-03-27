@@ -4,7 +4,7 @@ import { FlatList } from "react-navigation";
 import SearchBar from "../components/SearchBar";
 import {Picker} from '@react-native-picker/picker';
 import { TouchableHighlight } from "react-native-gesture-handler";
-import { setGlobalState, useGlobalState } from "../hooks/Cart"
+import { setGlobalState, useGlobalState } from "../hooks/Global"
 import data from "../../data/stores.json";
 
 //const { useGlobalState } = createGlobalState({cart: []});

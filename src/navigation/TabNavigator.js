@@ -15,6 +15,7 @@ import History from '../screens/History';
 // import Saved from '../screens/Saved';
 import Settings from '../screens/Settings';
 
+
 const Tab = createBottomTabNavigator();
 const TabNavigator = () => {
   return (

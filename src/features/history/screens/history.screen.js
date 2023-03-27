@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components/native";
 import { FlatList, View } from "react-native";
 import { HistoryInfoCard } from "../components/history-info-card.component";
@@ -7,10 +7,22 @@ import { SafeArea } from "../../../components/utility/safe-area.component";
 
 import historyDummyData from "../../../services/history/mock/historyDummyData.json";
 import { HistoryDropdown } from "../components/history-dropdown";
+import { db } from "../../../../config";
+import { ref, onValue } from "firebase/database";
 
 export const HistoryScreen = () => {
+  const [toDoData, setToDoData] = useState([]);
+
+  useEffect(() => {
+    const pastHistoryData = ref(db, "historyData");
+    onValue(pastHistoryData, (snapshot) => {
+      const result = snapshot.val();
+      setToDoData(result);
+    });
+  }, []);
+
   const [sortOption, setSortOption] = useState("Most Recent");
-  let sortedData = [...historyDummyData];
+  let sortedData = [...toDoData];
 
   if (sortOption === "Most Recent") {
     sortedData.sort((a, b) => new Date(b.date) - new Date(a.date));

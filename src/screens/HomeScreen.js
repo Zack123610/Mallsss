@@ -3,7 +3,11 @@ import { SafeAreaView, Text, StyleSheet, View, Image } from "react-native";
 import { FlatList } from "react-navigation";
 import SearchBar from "../components/SearchBar";
 import {Picker} from '@react-native-picker/picker';
+import { TouchableHighlight } from "react-native-gesture-handler";
+import { setGlobalState, useGlobalState } from "../hooks/Cart"
 import data from "../../data/stores.json";
+
+//const { useGlobalState } = createGlobalState({cart: []});
 
 const HomeScreen = () => {
     const [categorisedData, setCategorisedData] = useState([]);
@@ -11,6 +15,7 @@ const HomeScreen = () => {
     const [masterData, setMasterData] = useState([]);
     const [term, setTerm] = useState('');
     const [category, setCategory] = useState("All");
+    const [cart] = useGlobalState('cart');
 
     useEffect(() => {
         getStores();
@@ -63,7 +68,14 @@ const HomeScreen = () => {
     const ItemView = ({item}) => {
         return (
             <View style={styles.store}>
-                <Image style={styles.image} source={{ uri: `${item.storeDetails.image}`}}/>
+                <TouchableHighlight
+                    onPress={() => 
+                    {cart.indexOf(item) < 0 ? 
+                        setGlobalState('cart', [...cart, item]) 
+                        : null}}    
+                >
+                    <Image style={styles.image} source={{ uri: `${item.storeDetails.image}`}}/>
+                </TouchableHighlight>
                 <Text style={styles.text}>
                     {item.storeName.toUpperCase()}
                 </Text>
@@ -73,9 +85,7 @@ const HomeScreen = () => {
 
     const ItemSeparatorView = () => {
         return (
-            <View 
-                style={{height: 0}}
-            />
+            <View style={{height: 0}}/>
         )
     }
 

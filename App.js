@@ -26,18 +26,20 @@ export default function App() {
   //     </NavigationContainer>
   //   </TabBarProvider>
   // );
-    return (
+  return (
     <ThemeProvider>
       <ThemeWrapper>
         <CustomStatusBar />
         <TabBarProvider>
           {/* children */}
-          <NavigationContainer>
+          <NavigationContainer screenOptions={{
+            headerShown: false // <-- Set headerShown to false
+          }}>
             {/* <Stack.Navigator> */}
-              {/* <Stack.Screen name="CarparkOrMallScreen" component={CarparkOrMallScreen} />
+            {/* <Stack.Screen name="CarparkOrMallScreen" component={CarparkOrMallScreen} />
               <Stack.Screen name="Map" component={Map} />
               <Stack.Screen name="ResultScreen" component={ResultScreen} /> */}
-              {/* <Stack.Screen name="DummyScreen" component={DummyScreen} /> */}
+            {/* <Stack.Screen name="DummyScreen" component={DummyScreen} /> */}
             {/* </Stack.Navigator> */}
             <TabNavigator />
           </NavigationContainer>

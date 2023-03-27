@@ -19,13 +19,14 @@ import Settings from '../screens/Settings';
 const Tab = createBottomTabNavigator();
 const TabNavigator = () => {
   return (
-    <Tab.Navigator tabBar={props => <TabBar {...props} />}>
+    <Tab.Navigator screenOptions={{
+      headerShown: false // <-- Set headerShown to false
+    }} tabBar={props => <TabBar {...props} />}>
       <Tab.Screen
         name='Home'
         component={Home}
         initialParams={{ icon: 'home' }}
       />
-      
       <Tab.Screen
         name='List'
         component={List}

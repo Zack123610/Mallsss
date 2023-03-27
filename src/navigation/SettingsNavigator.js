@@ -9,8 +9,8 @@ const Stack = createStackNavigator();
 
 const SettingsNavigator = () => {
   return (
-    <Stack.Navigator screenOptions={{ headerTransparent: true, title: '' }}>
-      <Stack.Screen name='Settings' component={Settings} />
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Screen name='SettingsPage' component={Settings} />
       <Stack.Screen name='UpdatePassword' component={UpdatePassword} />
     </Stack.Navigator>
   );

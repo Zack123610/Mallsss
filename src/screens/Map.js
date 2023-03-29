@@ -5,15 +5,25 @@ import { getCurrentPositionAsync, useForegroundPermissions, PermissionStatus } f
 import MapViewDirections from 'react-native-maps-directions';
 // import { useRef } from 'react'; // For google map camera
 import app from '../../app.config.js';
+import newdata from "../../data/database.json";
 import DoneButton from '../components/UI/DoneButton';
 
-// import { useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
+
+function findMallIndex(resultMall){
+  var i;
+  for (i=0; i<newdata.Malls.length; i++){
+      if (newdata.Malls[i].mallId === resultMall) break;
+  };
+  return i;
+}
 
 function Map( {route} ) {
-  const [currentLocation, setCurrentLocation] = useState();
+  const [currentLocation, setCurrentLocation] = useState({});
   const [locationPermissionInformation, requestPermission] = useForegroundPermissions();
   const navigation = useNavigation();
   const api_key = app.expo.android.config.googleMaps.apiKey;
+  const choice = route.params.choice;
   const resultMall = route.params.resultMall;
   const resultStores = route.params.resultStores;
 
@@ -24,6 +34,7 @@ function Map( {route} ) {
     longitudeDelta: 0.0421,
   };
 
+  // const mapRef = useRef(null);
 
   // For verifying user permission on location
   async function verifyPermissions() {
@@ -55,14 +66,30 @@ function Map( {route} ) {
     }
 
     const location = await getCurrentPositionAsync(); // original is const location
-    console.log(location);
+    console.log("Over here the location that the system gets is: ", location);
+    console.log("Latitude: ", location.coords.latitude);
+    console.log("Longitude", location.coords.longitude);
     setCurrentLocation({ lat: location.coords.latitude, lng: location.coords.longitude });
   }
+
 
   // Call getLocationHandler() after the component has mounted
   useEffect(() => {
     getLocationHandler();
   }, []);
+
+  console.log("What is the currentLocation? : ", currentLocation);
+  const sample_location = {latitude: 1.2966426, longitude: 103.7763939};
+  // const origin = currentLocation ? {latitude: currentLocation.lat, longitude: currentLocation.lng} : sample_location;
+  const origin = sample_location;
+  console.log("Origin point is: " + origin.latitude + ", " + origin.longitude);
+  var destination = {latitude: 1.3397443, longitude: 103.7067297};
+  const mallIndex = findMallIndex(resultMall);
+  if (choice === "mall"){
+    destination = newdata.Malls[mallIndex].mallDetails.Location;
+  } else {
+    destination = newdata.Malls[mallIndex].mallDetails.nearestCarparkLocation;
+  }
 
   // For Done button to navigate to Result Screen
   function headerButtonPressHandler() {
@@ -85,11 +112,6 @@ function Map( {route} ) {
     });
   }, [navigation, headerButtonPressHandler]);
 
-  // const origin = currentLocation ? {latitude: currentLocation.lat, longitude: currentLocation.lng} : null;
-  const origin = {latitude: 1.3432438, longitude: 103.682751};
-  console.log("Origin point is: " + origin.latitude + ", " + origin.longitude);
-  const destination = {latitude: 1.3397443, longitude: 103.7067297};
-
   return (
     <MapView
       style={styles.map}
@@ -103,7 +125,7 @@ function Map( {route} ) {
         origin={origin} 
         destination={destination} 
         apikey={api_key} 
-        strokeWidth={5} 
+        strokeWidth={6} 
         strokeColor={"purple"}
       />
     </MapView>

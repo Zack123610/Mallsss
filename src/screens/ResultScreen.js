@@ -98,7 +98,7 @@ function ResultScreen( {route} ){
     function buttonPressHandler() {
         console.log("Button is pressed! First time");
         addNewHistoryData(toDoData, mallImage, resultMall, resultStores);
-        navigation.navigate('DummyScreen');
+        // navigation.navigate('DummyScreen'); Change this to HomePageScreen
     }
 
     const toggleIsSubmitted = () => {

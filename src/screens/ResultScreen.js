@@ -1,9 +1,10 @@
 import { View, Text, StyleSheet, FlatList, Image, Button } from "react-native";
+import { useState, useEffect } from 'react';
 import { useNavigation } from '@react-navigation/native';
+import { db } from '../../config';
+import { ref, set, onValue } from 'firebase/database';
 
-// import app from "../data/dummy-data.json";
-// import newdata from "../data/database.json";
-import newdata from "../../data/database.json"
+import newdata from "../../data/database.json";
 
 const StoreItem = ({ storeName, imageUrl, unitNumber, contact }) => (
     <View style={styles.storeItem}>
@@ -43,16 +44,47 @@ function findStoreIndex(resultStore, storesInMall){
     return i;
 }
 
+function addNewHistoryData(data, mallImage, resultMall, resultStores){
+    const dummy1 = data.length;
+    var today = new Date(); 
+    var time = today.getFullYear() + "-"
+                + String(today.getMonth()+1).padStart(2, '0') + "-"
+                + String(today.getDate()).padStart(2, '0') + " "
+                + today.getHours() + ":"  
+                + today.getMinutes() + ":" 
+                + today.getSeconds();
+
+    console.log("Here the dummy1 length is: ", dummy1);
+    set(ref(db, 'historyData/' + dummy1), {
+        date: time,
+        mall: resultMall,
+        photo: mallImage,
+        stores: resultStores
+    });
+    console.log("Here addNewHistory function is carried out.");
+    return;
+}
+
 function ResultScreen( {route} ){
     const navigation = useNavigation();
+    const [buttonPressed, setButtonPressed] = useState(false);
     const resultMall = route.params.resultMall;
     const resultStores = route.params.resultStores;
 
-    function buttonPressHandler() {
-        navigation.navigate('CarparkOrMallScreen');
-    }
+    const [toDoData, setToDoData] = useState([]);
+
+    useEffect( () => {
+        const pastHistoryData = ref(db, 'historyData');
+        onValue(pastHistoryData, (snapshot) => {
+            const result = snapshot.val();
+            setToDoData(result);
+        });
+    }, []);
+
+    console.log("The ToDoData here is: ", toDoData);
 
     const mallIndex = findMallIndex(resultMall);
+    const mallImage = newdata.Malls[mallIndex].mallDetails.mallImage;
     const storesInMall = newdata.Malls[mallIndex].stores;
 
     var dummy = [];
@@ -61,8 +93,24 @@ function ResultScreen( {route} ){
         storeIndex = findStoreIndex(resultStores[x], storesInMall);
         dummy.push(storesInMall[storeIndex]);
     }
-
     const DATA = dummy;
+
+    function buttonPressHandler() {
+        console.log("Button is pressed! First time");
+        addNewHistoryData(toDoData, mallImage, resultMall, resultStores);
+        navigation.navigate('DummyScreen');
+    }
+
+    const toggleIsSubmitted = () => {
+        setButtonPressed(value => !value);
+    };
+
+    useEffect(() => {
+    if (buttonPressed === true) {
+        buttonPressHandler();
+    }
+    }, [buttonPressed]);
+
     return (
         <>
         <FlatList
@@ -70,11 +118,12 @@ function ResultScreen( {route} ){
             renderItem={renderStoreItem}
             // keyExtractor={(item) => item.id} 
         />
-        <Button style={styles.button} title='DONE' onPress={buttonPressHandler} />
+        <View>
+            <Button style={styles.button} title='DONE' onPress={toggleIsSubmitted} />
+        </View>
         </>
     );
 }
-
 
 export default ResultScreen;
 

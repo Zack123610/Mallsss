@@ -6,7 +6,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Text } from "react-native";
 import { Fontisto } from "@expo/vector-icons";
 import { Navigation } from "./src/infrastructure/navigation";
-import { SavedContextProvider } from "./src/services/saved/saved.context";
+import { SavedContextProvider } from "./src/services/storecart/saved.context";
 
 import {
   useFonts as useVastShadow,
@@ -20,7 +20,7 @@ import {
 
 import { theme } from "./src/infrastructure/theme";
 import { HistoryScreen } from "./src/features/history/screens/history.screen";
-import { SavedScreen } from "./src/features/saved/screens/saved.screen";
+import { SavedScreen } from "./src/features/storecart/screens/storecart.screen";
 
 import { SafeArea } from "./src/components/utility/safe-area.component";
 

@@ -4,7 +4,7 @@ import styled from "styled-components/native";
 import { Fontisto } from "@expo/vector-icons";
 import { TouchableOpacity } from "react-native";
 
-import { SavedContext } from "../../services/saved/saved.context";
+import { SavedContext } from "../../services/storecart/saved.context";
 
 const SavedButton = styled(TouchableOpacity)`
   position: absolute;
@@ -15,14 +15,12 @@ const SavedButton = styled(TouchableOpacity)`
 
 export const Saved = ({ savedDetails }) => {
   const { saved, addToSaved, removeFromSaved } = useContext(SavedContext);
-  console.log(saved.length)
+  console.log(saved.length);
   const isSaved = saved.find((s) => s.placeId === savedDetails.placeId);
   return (
     <SavedButton
       onPress={() =>
-        !isSaved
-          ? addToSaved(savedDetails)
-          : removeFromSaved(savedDetails)
+        !isSaved ? addToSaved(savedDetails) : removeFromSaved(savedDetails)
       }
     >
       <Fontisto

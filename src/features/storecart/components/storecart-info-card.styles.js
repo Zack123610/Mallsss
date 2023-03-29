@@ -8,13 +8,13 @@ export const Icon = styled.Image`
   z-index: 1;
 `;
 
-export const SavedCard = styled(Card)`
+export const StorecartCard = styled(Card)`
   background-color: ${(props) => props.theme.colors.ui.tertiary};
   position: relative;
   z-index: 1;
 `;
 
-export const SavedCardCover = styled(Card.Cover)`
+export const StorecartCardCover = styled(Card.Cover)`
   padding: ${(props) => props.theme.space[3]};
   background-color: ${(props) => props.theme.colors.ui.tertiary};
   position: relative;
@@ -41,8 +41,9 @@ export const Section = styled.View`
   align-items: center;
 `;
 
+// padding-top: ${(props) => props.theme.space[1]};
 export const SectionEnd = styled.View`
-  padding-top: ${(props) => props.theme.space[4]};
+  padding-bottom: ${(props) => props.theme.space[1]};
   flex: 1;
   flex-direction: row;
   justify-content: flex-end;

@@ -5,7 +5,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Text } from "react-native";
 import { Fontisto } from "@expo/vector-icons";
 import { HistoryScreen } from "../../features/history/screens/history.screen";
-import { SavedScreen } from "../../features/saved/screens/saved.screen";
+import { StorecartScreen } from "../../features/storecart/screens/storecart.screen";
 import { SafeArea } from "../../components/utility/safe-area.component";
 
 const Tab = createBottomTabNavigator();
@@ -53,8 +53,7 @@ export const AppNavigator = () => (
       }}
     >
       <Tab.Screen name="Home" component={Home} />
-      <Tab.Screen name="Stores" component={Home} />
-      <Tab.Screen name="Saved" component={SavedScreen} />
+      <Tab.Screen name="Stores" component={StorecartScreen} />
       <Tab.Screen name="History" component={HistoryScreen} />
       <Tab.Screen name="Settings" component={Settings} />
     </Tab.Navigator>
